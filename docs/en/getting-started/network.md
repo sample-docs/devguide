@@ -1,11 +1,11 @@
-# Installation
+# Network Environment Configuration
 This section describes the system requirements for installing MORAI SIM: Air and how to run it.
 
 ---
 
-## System Requirements
+## License Activation
 
-### OS Environment
+### Minumum specs
 The OS environment in which MORAI SIM: Air can run is as follows.
 
  - **Windows** 10 or higher
@@ -17,13 +17,21 @@ The OS environment in which MORAI SIM: Air can run is as follows.
 A version for <b>Ubuntu (Linux)</b> is under development.
 </div>
 
-### System Specifications
+### Maximum specs
 To use multiple sensors in MORAI SIM: Air, the system specifications below should be satisfied.
 > - CPU: Intel i7 or higher
  - RAM: 32GB  or higher
 > - VGA: RTX 30 series or higher
 
-## Running MORAI SIM: Air
+
+## Launcher Download 
+To use multiple sensors in MORAI SIM: Air, the system specifications below should be satisfied.
+ - CPU: Intel i7 or higher
+ - RAM: 32GB  or higher
+ - VGA: RTX 30 series or higher
+
+
+## Running MORAI SIM
 Install and run MORAI SIM: Air in the following order.
 
 ### Step 1: Download MORAI SIM Launcher
@@ -70,3 +78,6 @@ The <b>start</b> button does not appear unless either the map or aircraft model 
 When the MORAI SIM:Air simulator is normally executed, the following simulator execution screen appears.
 
 <img src="../../img/install_check-simulator.png" style="width: 900px; height: auto;" alt="launcher" title="Click to Enlage" onclick="window.open(this.src)">
+
+
+## Handling execution issues

@@ -1,9 +1,9 @@
-# User Interface
+# SIM: Drive UI
 This section discribes an overview of the MORAI SIM: Air user interface (UI) and provides the detailed information on each UI component.
 
 ---
 
-## UI Overview
+## Overview
 
 The MORAI SIM: Air UI is designed to provide users with easy access to all necessary information and controls, allowing for a realistic and immersive simulation experience. <br>
 The entire UI screen of Sim Air is shown below.

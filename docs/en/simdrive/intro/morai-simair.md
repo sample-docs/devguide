@@ -1,4 +1,4 @@
-# About MORAI SIM: Air
+# About MORAI SIM: Drive
 This section explains the concept and features of **MORAI SIM: Air** and the configuration environment.
 
 ---

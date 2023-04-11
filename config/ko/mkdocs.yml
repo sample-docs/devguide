@@ -1,5 +1,5 @@
 # Project information
-site_name: MORAI SIM 1.0 - KR
+site_name: SIM 1.0 / KR
 docs_dir: '../../docs/ko'
 site_dir: '../../site'
 site_url: https://morai-docs.github.io/sim1.0/site
@@ -144,6 +144,11 @@ markdown_extensions:
 # Page tree
 nav:
   - Home: index.md
+  - Getting Started:
+    - getting-started/index.md
+    - System Requirements: getting-started/requirements.md
+    - Execution: getting-started/execution.md
+    - getting-started/network.md
   - SIM Drive: 
     - simdrive/index.md
     - Release Note: simdrive/release/release-notes.md
@@ -153,10 +158,8 @@ nav:
       - simdrive/about/terms-conventions.md
     - Introduction: 
       - simdrive/intro/morai-simair.md
-    - Gettign Started: 
-      - simdrive/getting-started/index.md
-      - simdrive/getting-started/installation.md
-      - User Interface: simdrive/getting-started/ui.md
+    - User Interface: 
+      - simdrive/ui.md
     - Using SIM Drive:
       - simdrive/user-guide/index.md
       - Basic Controls: simdrive/user-guide/basic-controls.md

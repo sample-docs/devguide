@@ -21,6 +21,26 @@
          <changefreq>daily</changefreq>
     </url>
     <url>
+         <loc>https://morai-docs.github.io/sim1.0/site/en/getting-started/</loc>
+         <lastmod>2023-04-11</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://morai-docs.github.io/sim1.0/site/en/getting-started/execution/</loc>
+         <lastmod>2023-04-11</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://morai-docs.github.io/sim1.0/site/en/getting-started/network/</loc>
+         <lastmod>2023-04-11</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://morai-docs.github.io/sim1.0/site/en/getting-started/requirements/</loc>
+         <lastmod>2023-04-11</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
          <loc>https://morai-docs.github.io/sim1.0/site/en/simair/</loc>
          <lastmod>2023-04-11</lastmod>
          <changefreq>daily</changefreq>
@@ -32,6 +52,11 @@
     </url>
     <url>
          <loc>https://morai-docs.github.io/sim1.0/site/en/simdrive/</loc>
+         <lastmod>2023-04-11</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://morai-docs.github.io/sim1.0/site/en/simdrive/ui/</loc>
          <lastmod>2023-04-11</lastmod>
          <changefreq>daily</changefreq>
     </url>
