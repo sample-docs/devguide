@@ -1,10 +1,10 @@
 # Project information
 site_name: MORAI SIM 1.0 - KR
 docs_dir: '../../docs/ko'
-site_dir: '../../site/ko'
-site_url: https://morai-docs.github.io/sim1.0/site/ko
+site_dir: '../../site'
+site_url: https://morai-docs.github.io/sim1.0/site
 site_author: MORAI Engineering Service Team
-site_description: Release Documentation for MORAI SIM 1.0/KR
+site_description: Release Documentation for MORAI SIM 1.0 KR
 site_author: MORAI Engineering Service Team
 
 # Repository
@@ -73,8 +73,8 @@ plugins:
       minify_html: true
 
 # Hooks
-hooks:
-  - material/.overrides/hooks/translations.py
+# hooks:
+#   - material/.overrides/hooks/translations.py
 
 
 # Customization
@@ -90,7 +90,7 @@ extra:
 
   alternate:
     - name: Korean
-      link: /sim1.0/site/ko/ 
+      link: /sim1.0/site/
       lang: ko
 
     - name: English
