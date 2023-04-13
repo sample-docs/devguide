@@ -1,7 +1,7 @@
-# MORAI SIM Execution
+# 런처 실행하기
 This section describes the system requirements for installing MORAI SIM: Air and how to run it.
 
----
+
 
 ## License Activation
 

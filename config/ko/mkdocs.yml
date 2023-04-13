@@ -1,5 +1,5 @@
 # Project information
-site_name: SIM 1.0 / KR
+site_name: SIM 1.0 KR
 docs_dir: '../../docs/ko'
 site_dir: '../../site'
 site_url: https://morai-docs.github.io/sim1.0/site
@@ -57,7 +57,7 @@ theme:
         icon: material/brightness-4
         name: Switch to light mode
   font:
-    text: Roboto
+    text: sans-serif
     code: Roboto Mono
   favicon: assets/Favicon.png
   icon:
@@ -96,6 +96,9 @@ extra:
     - name: English
       link: /sim1.0/site/en/ 
       lang: en
+
+extra_css:
+  - extra.css
 
 
 # Extensions
@@ -139,6 +142,7 @@ markdown_extensions:
   - pymdownx.tasklist:
       custom_checkbox: true
   - pymdownx.tilde
+  - tables
 
 
 # Page tree
@@ -146,9 +150,10 @@ nav:
   - Home: index.md
   - Getting Started:
     - getting-started/index.md
-    - System Requirements: getting-started/requirements.md
-    - Execution: getting-started/execution.md
-    - getting-started/network.md
+    - getting-started/requirements.md
+    - getting-started/execution.md
+    - getting-started/running-issue.md
+
   - SIM Drive: 
     - simdrive/index.md
     - Release Note: simdrive/release/release-notes.md
@@ -160,18 +165,29 @@ nav:
       - simdrive/intro/morai-simair.md
     - User Interface: 
       - simdrive/ui.md
-    - Using SIM Drive:
+    - User Guide:
       - simdrive/user-guide/index.md
       - Basic Controls: simdrive/user-guide/basic-controls.md
       - simdrive/user-guide/network.md
       - Sensor Settings: simdrive/user-guide/sensors.md
 
+    - Developer Guide:
+      - simdrive/developer-guide/index.md
+
+
   - SIM Air: 
     - simair/index.md
     - Introduction: 
       - simair/intro/morai-simair.md
+    - User Guide:
+      - simair/user-guide/index.md
+      - Basic Controls: simair/user-guide/basic-controls.md
+      - simair/user-guide/network.md
+      - Sensor Settings: simair/user-guide/sensors.md
+
   - SIM Robotics: 
     - sim-robot.md
+
   - SIM Maritime: 
     - sim-mari.md
 

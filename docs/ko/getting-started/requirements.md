@@ -1,4 +1,4 @@
-# System Requirements
+# 시스템 요구사항
 This section describes the system requirements for installing MORAI SIM: Air and how to run it.
 
 ---
@@ -16,6 +16,19 @@ The OS environment in which MORAI SIM: Air can run is as follows.
 ℹ️ <span class = "not-calloutTitle"> NOTE </span> <br>
 A version for <b>Ubuntu (Linux)</b> is under development.
 </div>
+
+???+ note
+
+    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla et euismod
+    nulla. Curabitur feugiat, tortor non consequat finibus, justo purus auctor
+    massa, nec semper lorem quam in massa.
+
+???+ tip
+
+    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla et euismod
+    nulla. Curabitur feugiat, tortor non consequat finibus, justo purus auctor
+    massa, nec semper lorem quam in massa.
+        
 
 ### Maximum specs
 To use multiple sensors in MORAI SIM: Air, the system specifications below should be satisfied.
