@@ -148,47 +148,62 @@ markdown_extensions:
 # Page tree
 nav:
   - Home: index.md
+
   - Getting Started:
     - getting-started/index.md
     - getting-started/requirements.md
     - getting-started/execution.md
     - getting-started/running-issue.md
 
-  - SIM Drive: 
-    - simdrive/index.md
-    - Release Note: simdrive/release/release-notes.md
-    - About this Document:
-      - Revision History: simdrive/about/revision-history.md
-      - simdrive/about/overview.md
-      - simdrive/about/terms-conventions.md
-    - Introduction: 
-      - simdrive/intro/morai-simair.md
-    - User Interface: 
-      - simdrive/ui.md
-    - User Guide:
-      - simdrive/user-guide/index.md
-      - Basic Controls: simdrive/user-guide/basic-controls.md
-      - simdrive/user-guide/network.md
-      - Sensor Settings: simdrive/user-guide/sensors.md
+  - User Guide:
+    - user-guide/index.md
 
-    - Developer Guide:
-      - simdrive/developer-guide/index.md
+    - About this Document: user-guide/about/index.md
+
+    - SIM Drive:
+      - user-guide/simdrive/index.md
+
+      - Release Note: user-guide/simdrive/release-notes.md
+
+      - User Interface: 
+        - user-guide/simdrive/ui/index.md
+        - user-guide/simdrive/ui/default.md
+        - 계기 정보 UI: user-guide/simdrive/ui/instruments.md
+        - 차량 정보 UI: user-guide/simdrive/ui/instruments.md
+
+      - How to Use:
+        - user-guide/simdrive/how/index.md
+        - Basic Controls: user-guide/simdrive/how/basic-controls.md
+        - Sensor Settings: user-guide/simdrive/how/sensors.md
+        - user-guide/simdrive/how/useful.md
+
+    - SIM Air: 
+      - user-guide/simair/index.md
+
+      - User Interface: 
+        - user-guide/simair/ui/index.md
+        - user-guide/simair/ui/default.md
+        - user-guide/simair/ui/instruments.md
+
+      - How to Use:
+        - user-guide/simair/how/index.md
+        - Basic Controls: user-guide/simair/how/basic-controls.md
+        - Sensor Settings: user-guide/simair/how/sensors.md
+        - user-guide/simair/how/useful.md
+
+    - SIM Robotics: 
+      - user-guide/simrobot/index.md
+
+    - SIM Maritime: 
+      - user-guide/simmari/index.md
+
+  - Developer Guide: 
+    - developer-guide/index.md
+
+  - API Guide:
+    - api-guide/index.md
 
 
-  - SIM Air: 
-    - simair/index.md
-    - Introduction: 
-      - simair/intro/morai-simair.md
-    - User Guide:
-      - simair/user-guide/index.md
-      - Basic Controls: simair/user-guide/basic-controls.md
-      - simair/user-guide/network.md
-      - Sensor Settings: simair/user-guide/sensors.md
-
-  - SIM Robotics: 
-    - sim-robot.md
-
-  - SIM Maritime: 
-    - sim-mari.md
+ 
 
 
