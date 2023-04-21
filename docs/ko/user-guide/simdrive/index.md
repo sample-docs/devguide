@@ -1,74 +1,24 @@
-# About MORAI SIM: Air
-This section explains the concept and features of **MORAI SIM: Air** and the configuration environment.
+# MORAI SIM: Drive 소개
+**MORAI SIM: Drive** 의 개념 및 주요 특징을 설명합니다.
 
 ---
 
-## Concept and Key Features
-MORAI SIM: Air is a simulation platform that can verify autonomous flight systems used in various industries such as Urban Air Mobility (UAM), unmanned aerial vehicles (Drones), and light aircraft in a virtual environment.
-<br>
+## MORAI SIM: Drive란
+MORAI SIM: Drive는 자율 주행 로직을 검증하기 위하여 실제의 다양한 주행 테스트 환경을 가상의 XIL(X-In-the-Loop)으로 제공하는 자율주행 시뮬레이션 플랫폼입니다.
 
-MORAI SIM: Air provides a variety of real flight environments as virtual simulations using Digital Twin technology, so the safety of the aircraft can be verified more efficiently and accurately.
-And it reporduces actual flight facilities such as vertical take-off and landing facilities (vertiport) and airports for vehicle verification as a digital twin environment, and simulates the actual measurement data provided to the aircraft from each facility as it is. <br>
-MORAI SIM: Air virtualizes various sensors and flight dynamics model (FDM) specialized for the aviation industry, and can transmit and receive data in real-time by applying communication such as [ROS2](https://docs.ros.org/en/rolling/index.html) and [UDP](https://en.wikipedia.org/wiki/User_Datagram_Protocol). <Br>
-
-The main features of **MORAI SIM: Air** are as follows.
->  - Provides a simulation environment based on [Unreal Engine](https://en.wikipedia.org/wiki/Unreal_Engine), a physics engine 
-  - Supports realistic flight dynamics model (FDM) for [Cirrus SR22T](https://cirrusaircraft.com/aircraft/sr22t/) and 6 degrees of freedom (DOF) data
-  - Supports realistic flight dynamics model (FDM) developed with [JSBSim](https://jsbsim.sourceforge.net/JSBSim/index.html), and 6 degrees of freedom (DOF) data
-  - Reproduces weather and time variation with dynamic environment
-  - Integration with external sensors and systems: Camera, GNSS, IMU, RADAR, 3D LiDAR
->  - Supports real-time transmission of flight status messages and sensor data through ROS2 and UDP communication
-
-### Simulation environment based on Unreal Engine
-MORAI SIM: Air utilizes the physics engine, Unreal Engine to provide a high-fidelity simulation environment for autonomous aerial vehicles, and it can reproduce object movement, physical conditions such as collision and penetration, as well as color and texture realistically.
-<br>
-
-Unreal Engine allows for the creation of highly detailed 3D environments and provides a sophisticated physics engine that can simulate the behavior of objects in a realistic manner. This means that the movement of the aerial vehicles, as well as other objects in the simulation environment, are accurately represented.
-<br>
-
-Moreover, the Unreal Engine can render textures and colors realistically, which helps to create a more immersive simulation experience for users. This allows users to visualize and interact with the simulation environment in a way that closely mirrors the real-world environment, and enables them to test and validate the performance of their autonomous flight systems under realistic conditions.
+MORAI SIM: Drive는 차량의 복잡한 물리적 특성을 반영한 차량 및 센서 모델 뿐만 아니라 날씨, 조도, 장애물에 따른 주행 환경과 유사한 디지털 트윈, 실제 도로에서 검증하기 어려운 테스트 시나리오 모두 풀스택으로 제공합니다.
 
 <figure>
-    <img src="../../img/into-duluth.png" style="width: 1000px; height: auto;" alt="sensor">
-    <figcaption style="padding-top: 10px;"><b> Figure 1. 3D Simulation environment for Duluth airport provided by MORAI SIM: Air</b></figcaption>
+    <img src="../img/intro-simdrive1.png" alt="sensor" style="width: 1000px; height: auto;" title="Click to Enlage" onclick="window.open(this.src)">
+    <figcaption><b> 그림 1. MORAI SIM: Drive의 센서 기술</b></figcaption>
 </figure>
 
-### Supports realistic flight dynamics model and 6 DOF
-MORAI SIM: Air supports realistic flight dynamics models (FDM) based on [JSBSim](https://jsbsim.sourceforge.net/JSBSim/index.html) for simulation modeling of the behavior of aircraft engines and other systems.<br> 
-Additionally, MORAI SIM: Air implements the [Cirrus SR22T](https://cirrusaircraft.com/aircraft/sr22t) aircraft model and 6 degrees of freedom (DOF) data, providing a realistic simulation experience.
+<BR>
+## MORAI SIM: Drive 주요 특징
+ MORAI SIM: Drive의 주요 특징은 다음과 같습니다.
 
-<figure>
-    <img src="../../img/sr22.png" style="width: 1000px; height: auto;" alt="sensor">
-    <figcaption style="padding-top: 10px;"><b> Figure 2. Flight of SR22T model implemented in MORAI SIM: Air</b></figcaption>
-</figure>
-<p></p>
-<video controls>
-  <source src="https://user-images.githubusercontent.com/120563672/226307319-c5462e1a-758f-4082-8b03-10d1062bda64.mp4">
-</video>
-<p style="font-size:16px;"><b> Figure 3. Flight control of SR22T with joystick in MORAI SIM: Air</b></p>
-
-### Reproduces weather and time variation with dynamic environment
-MORAI SIM: Air also includes a simulation of the environment and weather conditions, which affect the flight behavior and performance of the aerial vehicles. This allows users to test their autonomous flight systems under different conditions and scenarios.
-
-<video controls>
-  <source src="https://user-images.githubusercontent.com/120563672/226257559-697af30d-e705-49d4-b930-f26dd60c848d.mp4">
-</video>
-<p style="font-size:16px;"><b> Figure 4. Reproduced video of weather and time condition changes in MORAI SIM: Air </b></p>
-
-### Integration with external sensors and real-time communication
-MORAI SIM: Air supports integration with a variety of external sensors commonly used in autonomous flight systems, including Camera, GNSS, IMU, RADAR, and LiDAR sensors. This enables users to test and validate the integration and performance of their sensors and systems in a virtual environment. <br>
-
-<figure>
-    <img src="../../img/Default_Layout_Sensor.png" alt="sensor" style="width: 1000px; height: auto;" title="Click to Enlage" onclick="window.open(this.src)">
-    <figcaption style="padding-top: 10px;"><b> Figure 5. Sensor models provided by MORAI SIM: Air</b></figcaption>
-</figure>
-
-Also, MORAI SIM: Air supports real-time communication for flight status messages and sensor data using the ROS2 and UDP communication protocols. This enables users to monitor and analyze the performance of their autonomous flight systems during the simulation in real-time.
-
-<figure>
-    <img src="../../img/Default_NetworkSettings.png" alt="network" style="width: 1000px; height: auto;" title="Click to Enlage" onclick="window.open(this.src)">
-    <figcaption style="padding-top: 10px;"><b> Figure 6. Network settings provided by MORAI SIM: Air </b></figcaption>
-</figure>
+- 실제 차량 모델: 
+MORAI SIM: Drive는 실제 차량과 유사한 차량 모델을 시뮬레이션 환경에서 제공하기 때문에, 실제 차량 사양 정보를 반영한 동일한 조건으로 자율주행 테스트를 할 수 있습니다. 또한 실제 차량 거동 시험 데이터를 활용해 실제 차량과 유사한 움직임을 동적 모델로 제공하며, 세단, SUV, 상용차(버스, 트럭) 외 도심항공 모빌리티(UAM)까지 다양한 주행 모델을 지원합니다.
 
 
 

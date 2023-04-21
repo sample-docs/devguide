@@ -1,60 +1,17 @@
 # 본 문서에 관하여
-This section describes the purpose, target audiences, and scope of this document.
+MORAI SIM User Guide의 작성 목적 및 작성 대상, 적용 범위와 같은 기본적인 문서 정보에 대하여 설명합니다.
 
 ---
 
 ## 문서 개요
 
-### Purpose
-This document is written to guide the configuration environment and usage of ‘MORAI SIM: Air’, an autonomous flight simulation platform developed by Morai.
+### 작성 목적
+본 문서는 모라이에서 개발한 자율주행 검증 시뮬레이터 플랫폼인 ‘MORAI SIM’에 관한 사용자 가이드로, MORAI SIM의 구성 환경과 기능 사용법을 가이드하기 위해 작성되었습니다.
 
-### Target Audience
-This document is written for aeronautical developers and researchers who want to verify air vehicles in various simulated virtual environments.
+### 작성 대상
+본 문서는 'MORAI SIM: Drive’를 사용하여 자율주행 차량을 다양한 시뮬레이터 환경에서 검증하려는 개발자 및 고급 사용자를 대상으로 작성되었습니다.
 
-### Scope
-The scope of application of this document applies to the configuration environment and user interface of MORAI SIM: Air, and all functions provided by MORAI SIM: Air.
+### 적용 범위
+본 문서는 MORAI SIM의 구성 환경 및 통신 환경, 사용자 인터페이스, MORAI SIM이 포함하는 동적 및 정적 객체 모델, 제공 기능에 적용됩니다.
 
-## 문서 개정 이력
-This section describes the revision history of the document in chronological order.
-
-| Document Version | Product Version | Release Date  | Descriptions             | Author  |
-| :--------------- | :---------------| :------------ | :----------------------- | :------ |
-| 1.0              | Alpha 1.0            | April 4, 2023   | Initial Release   | MORAI Engineering Service Team |
-
-
-## 용어 및 약어
-The key Terms and Abbreviations used in this documents are listed below:
-
-| Terms and Abbreviations | Descriptions                           |
-| ----------------------- | -------------------------------------- |
-| Ego Vehicle             | Control flight target aircraft in the simulator |
-| NPC Vehicle             | Surrounding aircraft that are not controlled flight targets in the simulator |
-| ROS2                    | The latest version of Robot Operating System(ROS) |
-| JSBSim                  | An open source, multi-platform, object-oriented flight dynamics model (FDM) framework written in the C++ programming language |
-| AOA                     | Angle of Attack, unit: degrees                     |
-| CAS                     | Calibrated Airspeed, unit: knots            |
-| GS                      | Ground Speed, unit: knots                |
-| Attitude Indicator      | Shows the altitude of the aircrafte                       |
-| Altimeter               | Shows the altitude of the aircraft above ground level(AGL) in feet                        |
-| Vertical Speed Indicator | Shows the vertical speed of the aircraft in feet per minute                      |
-
-
-## 표기 규칙
-The notational conventions for notes, warnings, and tips used in this document are as follows:
-
-<div markdown="span" class="bs-callout bs-callout-primary">
-ℹ️ <span class = "not-calloutTitle"> NOTE </span> <br>
-General Information for related matters.
-</div>
-<p></p>
-<div markdown="span" class="bs-callout bs-callout-danger">
-⚠️  <span class = "dan-calloutTitle"> WARNING </span> <br>
-For matters you should follow when setting or configuration
-</div>
-<p></p>
-<div markdown="span" class="bs-callout bs-callout-success">
-✅ <span class = "suc-calloutTitle"> TIPS </span> <br>
-Useful tips when setting or configuration
-</div>
-
-<br>
+ 

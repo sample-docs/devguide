@@ -149,16 +149,18 @@ markdown_extensions:
 nav:
   - Home: index.md
 
-  - Getting Started:
-    - getting-started/index.md
-    - getting-started/requirements.md
-    - getting-started/execution.md
-    - getting-started/running-issue.md
-
   - User Guide:
     - user-guide/index.md
 
-    - About this Document: user-guide/about/index.md
+    - About this Document: 
+      - user-guide/about/index.md
+      - user-guide/about/revision-history.md
+      - user-guide/about/terms-conventions.md
+
+    - Getting Started:
+      - user-guide/getting-started/index.md
+      - user-guide/getting-started/requirements.md
+      - user-guide/getting-started/execution.md
 
     - SIM Drive:
       - user-guide/simdrive/index.md

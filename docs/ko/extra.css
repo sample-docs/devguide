@@ -13,8 +13,37 @@
 .md-typeset p code,
 p pre {
  
-    background-color: #fbe9e7; 
+    background-color: #c9dff379;/* #fbe9e7; */ 
     border: 0;
     margin: 0 2px;
     padding: 0 5px;
+}
+
+
+.md-typeset table code,
+table pre {
+  background-color: #c9dff379/* #fbe9e7 */; 
+}
+
+.md-typeset img { /*230316*/
+  max-width: 100%;
+  /* width: 50%; */
+  height: auto;
+  display: block;
+
+
+  margin-bottom: 0;
+  /* padding-top: 5px; */
+  padding-bottom: -1;
+
+  border: 0;
+  -ms-interpolation-mode: bicubic;
+  image-rendering: optimizeQuality;
+
+}
+
+.md-typeset figure {
+  padding-top: 0px;
+  padding-bottom: -1;
+  margin-bottom: 0;
 }
