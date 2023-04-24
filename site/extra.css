@@ -1,4 +1,8 @@
 
+.md-typese p {
+  font-size: 16px; /*230316*/
+  line-height: 1.5rem; /*230316*/
+}
 
 .md-typeset .admonition,
 .md-typeset details {
@@ -46,4 +50,5 @@ table pre {
   padding-top: 0px;
   padding-bottom: -1;
   margin-bottom: 0;
+  font-size: 17px;
 }

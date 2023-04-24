@@ -1,26 +1,15 @@
 # MORAI SIM 사용자 가이드
 
-<img src="./img/intro2.png" style="width: 1000px; height: auto;" alt="sensor">
-<Br>
-This document is a User Guide for **MORAI SIM: Air** alpha version provided to [CIRRUS AIRCRAFT](https://cirrusaircraft.com)
+MORAI SIM 정규 배포 버전에 대한 공식 사용자 가이드입니다. <br>
+MORAI SIM을 시작하기 위한 요구사항부터 MORAI SIM에서 제공하는 사용자 인터페이스 및 기능 사용법을 도메인 제품 별(Drive, Air, Robotics, Maritime)로 안내합니다.
 
-Take a look the [MORAI SIM: Air]'s concept and features.  <br>
-Start MORAI SIM: Air by reading the **[introductory tutorial]**, then check the **[user guide]** for more information.
+![Image title](./img/sim-ug.png){:onclick="window.open(this.src)" title="Click view screen" width=1000}
 
-[MORAI SIM: Air]: intro/morai-simair.md
-[introductory tutorial]: getting-started/
-[user guide]: user-guide/
+<br>
+아래의 경로에서 MORAI SIM을 빠르게 시작하고, MORAI SIM의 도메인 제품 별 특징 및 사용법을 확인하십시오.
 
-<div class="text-center">
-<ul>
-  <li>
-   <b>To checkout MORAI SIM: Air</b>, Go to <a href="intro/morai-simair" class="btn btn-primary" role="button">Introduction</a>
-  </li>
-  <li>
-    <b>To start MORAI SIM: Air</b>, Go to <a href="getting-started/" class="btn btn-primary" role="button">Getting Started</a>
-  </li>
-  <li>
-    <b>To use MORAI SIM: Air</b>, Go to <a href="user-guide/" class="btn btn-primary" role="button">User Guide</a>
-  </li>
-</ul>
-</div>
+ - [**MORAI SIM** 시작하기](getting-started)
+ - [**MORAI SIM: Drive** 확인하기](simdrive)
+ - [**MORAI SIM: Air** 확인하기](simair)
+ - [**MORAI SIM: Robotics** 확인하기](simrobot)
+ - [**MORAI SIM: Maritime** 확인하기](simmari)
