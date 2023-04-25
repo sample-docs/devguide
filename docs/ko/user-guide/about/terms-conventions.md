@@ -1,10 +1,10 @@
-# 용어 및 약어
+# 용어 및 표기 규칙
 
 문서에서 공통으로 사용하는 주요 용어 및 약어, 표기 규칙을 정리합니다.
 
 ---
 
-## 주요 용어
+## 주요 용어 및 약
 본 문서에서 사용되는 주요 용어 및 약어는 아래와 같습니다.
 
 | Terms and Abbreviations | Descriptions                           |
@@ -28,10 +28,19 @@
     Setup and Configuration Information You Must Follow.
 <p>&nbsp;</p>
 ???+ note
-    Information you can refer to about the subject
+    Information you can refer to about the subject.
 <br>
 ???+ tip
-    Description of useful tips for setup and configuration
+    Description of useful tips for setup and configuration.
 <br>
 ???+ success
-    Description of the results of normal operation after setup and configuration
+    Description of the results of normal operation after setup and configuration.
+
+<br>
+???+ Bug "Bug fixes"
+    Details about bug fixes in the release notes.
+
+<br>
+???+ Info "Changes"
+    Details of the changes and improvements in the release notes.
+

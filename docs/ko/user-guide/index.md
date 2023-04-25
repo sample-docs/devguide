@@ -6,8 +6,9 @@ MORAI SIM을 시작하기 위한 요구사항부터 MORAI SIM에서 제공하는
 ![Image title](./img/sim-ug.png){:onclick="window.open(this.src)" title="Click view screen" width=1000}
 
 <br>
-아래의 경로에서 MORAI SIM을 빠르게 시작하고, MORAI SIM의 도메인 제품 별 특징 및 사용법을 확인하십시오.
+아래의 경로에서 MORAI SIM을 빠르게 시작해보고, 각 도메인에 따른 MORAI SIM 제품 별 특징 및 사용법을 확인하십시오.
 
+ - [**MORAI SIM** 소개](intro)
  - [**MORAI SIM** 시작하기](getting-started)
  - [**MORAI SIM: Drive** 확인하기](simdrive)
  - [**MORAI SIM: Air** 확인하기](simair)

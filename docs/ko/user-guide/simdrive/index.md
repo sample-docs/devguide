@@ -1,8 +1,16 @@
-# MORAI SIM: Drive 소개
-**MORAI SIM: Drive** 의 개념 및 주요 특징을 설명합니다.
+# MORAI SIM: Drive 사용자 가이드
+**MORAI SIM: Drive** 의 도메인 특성이 반영된 사용자 인터페이스와 사용 방법을 안내합니다.
 
----
+![simdrive](../img/simdrive-main.png)
 
+<br>
+
+- [MORAI SIM: Drive 공식 배포 버전 릴리스 노트](release-notes)
+- [MORAI SIM: Drive 사용자 인터페이스](ui)
+- [MORAI SIM: Drive 사용하기](how)
+
+
+<!-- 
 ## MORAI SIM: Drive란
 MORAI SIM: Drive는 자율 주행 로직을 검증하기 위하여 실제의 다양한 주행 테스트 환경을 가상의 XIL(X-In-the-Loop)으로 제공하는 자율주행 시뮬레이션 플랫폼입니다.
 
@@ -37,8 +45,8 @@ MORAI SIM: Drive는 다양한 형식의 데이터를 생산 및 실시간 전송
 - **디지털 트윈 기반 구현**: <Br> 
 MORAI SIM: Drive는 국내 20여개의 도시를 비롯한 전세계 주요 도시의 모든 환경 요소를 디지털 트윈으로 구현할 수 있습니다. MORAI SIM만의 데이터 생성 프로세스를 통해 정밀 지도 데이터(세 가지 형식 지원: HD 항공 이미지, HD 실감사진, 포토리얼)를 활용한 3D 기반 시뮬레이션 환경을 디지털 트윈으로 자동 구현합니다.
     <figure>
-      <img src="../img/intro-simdrive2.png" alt="sensor" style="width: 500px; height: auto;"  title="Click to Enlage" onclick="window.open(this.src)">
-      <figcaption><b> 그림 3. MORAI SIM: Drive의 디지털 트윈 기반 시뮬레이션 환경</b> 
+      <img src="https://static.wixstatic.com/media/abc373_1cc8ab1566f349da938f5fc3695660d0f000.jpg/v1/fill/w_470,h_360,al_c,q_80,usm_0.33_1.00_0.00,enc_auto/abc373_1cc8ab1566f349da938f5fc3695660d0f000.jpg" alt="sensor" style="width: 500px; height: auto;"  title="Click to Enlage" onclick="window.open(this.src)">
+      <figcaption><b> 그림 4. MORAI SIM의 디지털 트윈 기반 시뮬레이션 환경</b> 
       </figcaption>
     </figure>
 <br>
@@ -50,4 +58,4 @@ MORAI SIM: Drive는 ISO, ASAM, Euro NCAP과 같은 국제 안전 표준의 다�
       <figcaption><b> 그림 3. MORAI SIM: Drive의 시나리오 테스트 환경</b> 
       </figcaption>
     </figure>
-
+ -->

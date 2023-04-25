@@ -154,13 +154,17 @@ nav:
 
     - About this Document: 
       - user-guide/about/index.md
-      - user-guide/about/revision-history.md
-      - user-guide/about/terms-conventions.md
+      - Revision History: user-guide/about/revision-history.md
+      - Terms and Conventions: user-guide/about/terms-conventions.md
+    
+    - Introduction:
+      - user-guide/intro/index.md
+
 
     - Getting Started:
       - user-guide/getting-started/index.md
-      - user-guide/getting-started/requirements.md
-      - user-guide/getting-started/execution.md
+      - System Requirements: user-guide/getting-started/requirements.md
+      - Run Simulator: user-guide/getting-started/execution.md
 
     - SIM Drive:
       - user-guide/simdrive/index.md
@@ -169,15 +173,15 @@ nav:
 
       - User Interface: 
         - user-guide/simdrive/ui/index.md
-        - user-guide/simdrive/ui/default.md
-        - 계기 정보 UI: user-guide/simdrive/ui/instruments.md
-        - 차량 정보 UI: user-guide/simdrive/ui/instruments.md
+        - Defualt UI: user-guide/simdrive/ui/default.md
+        - Instrument UI: user-guide/simdrive/ui/instruments.md
+        - Vehicle Info UI: user-guide/simdrive/ui/instruments.md
 
       - How to Use:
         - user-guide/simdrive/how/index.md
         - Basic Controls: user-guide/simdrive/how/basic-controls.md
         - Sensor Settings: user-guide/simdrive/how/sensors.md
-        - user-guide/simdrive/how/useful.md
+        - Usefule Tooltips: user-guide/simdrive/how/useful.md
 
     - SIM Air: 
       - user-guide/simair/index.md
