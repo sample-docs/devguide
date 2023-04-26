@@ -173,9 +173,9 @@ nav:
 
       - User Interface: 
         - user-guide/simdrive/ui/index.md
-        - Defualt UI: user-guide/simdrive/ui/default.md
-        - Instrument UI: user-guide/simdrive/ui/instruments.md
-        - Vehicle Info UI: user-guide/simdrive/ui/instruments.md
+        - Defualt Screen UI: user-guide/simdrive/ui/default.md
+        - Cluster and Map Info UI: user-guide/simdrive/ui/clustermap.md
+        - Driving Info UI: user-guide/simdrive/ui/driving.md
 
       - How to Use:
         - user-guide/simdrive/how/index.md

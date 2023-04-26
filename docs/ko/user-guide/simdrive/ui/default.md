@@ -1,10 +1,9 @@
-# 기본 UI
-This section discribes an overview of the MORAI SIM: Air user interface (UI) and provides the detailed information on each UI component.
+# 기본 화면 UI
+t시뮬레이터를 실행하면 나타나는 기본 화면 UI의 구성 요소에 대해 설명합니다.
 
 ---
 
-
-## 기본 UI 개요
+## 기본 화면 UI 개요
 The default UI appears as soon as you enter the simulater for the first time. <br>
 Centered on the map and aircraft selected in the previous step, it consists of the following three parts: **1] Network and Sensor Settings**, **2] Environment Settings**, and **3] Flight Instruments**.
 <figure>

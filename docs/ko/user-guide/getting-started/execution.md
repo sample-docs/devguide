@@ -10,17 +10,16 @@ MORAI SIM 실행 순서 및 방법에 대하여 설명합니다.
  - **[Linux](https://develop-morai-s3-bucket.s3.ap-northeast-2.amazonaws.com/Asset/Launcher/Release/MoraiLauncher_Lin.zip){:target="_blank"}**
 
 <br>
-## Step 2: 런처 실행 및 로그인
 
-???+ note
-    윈도우 운영체제 기준으로 설명합니다.
-
+## Step 2: 런처 실행
+사용자 운영체제 환경에 맞추어 다운로드한 런처를 실행합니다.
+    
 ### 윈도우에서 런처 실행
-다운로드한 런처 프로그램의 압축 해제 후 `MoraiLauncher_Win.exe` 실행합니다.
+런처 프로그램의 압축 해제 후 `MoraiLauncher_Win.exe` 실행합니다.
 ![Image title](../img/getting-launcher.png){:onclick="window.open(this.src)" title="Click view screen"}
 
 ### 리눅스에서 런처 실행
-다운로드한 런처 프로그램의 압축 해제 후 아래와 같이 런처를 실행합니다.
+런처 프로그램의 압축 해제 후 아래와 같이 런처를 실행합니다.
 
 ![Image title](../img/getting-launcherlinux.png){:onclick="window.open(this.src)" title="Click view screen"}
 
@@ -32,7 +31,7 @@ $ ./MORAISim.sh
 
 ```
 <br>
-### 런처 로그인 
+## Step 3: 런처 로그인 
 런처 실행 화면에서 모라이 라이선스 부서로부터 안내 받은 ID와 PW를 기입 후 **SIGN IN** 을 클릭합니다.
    
 ![Image title](../img/getting-launcherlogin.png){:onclick="window.open(this.src)" title="Click view screen"} 
@@ -41,7 +40,7 @@ $ ./MORAISim.sh
      런처가 정상적으로 실행하면 런처 실행 화면 좌상단에서 ‘MSC is Connected’ 메시지를 확인할 수 있습니다.
 
 <br>
-## Step 3: 시뮬레이터 설치 및 업데이트
+## Step 4: 시뮬레이터 설치 및 업데이트
 런처에 로그인하면 화면 좌측 메뉴에 사용자 라이선스에 할당된 시뮬레이터가 버전 별로 표시됩니다. 
 실행하고자 하는 시뮬레이터 버전 선택 후 화면 우측하단의 **Install** 을 클릭하여 설치합니다.
 
@@ -56,12 +55,13 @@ $ ./MORAISim.sh
     ![Image title](../img/getting-launcherclose.png){:onclick="window.open(this.src)" title="Click view screen"}
 
 <br>
-## Step 4: 시뮬레이터 시작
-시뮬레이터 설치가 완료되면 화면 우측 하단에 **Start** 가 표시됩니다.  **Start** 를 클릭하여 설치한 시뮬레이터를 시작합니다.
+## Step 5: 시뮬레이터 시작
+1] 시뮬레이터 설치가 완료되면 화면 우측 하단에 **Start** 가 표시됩니다.  **Start** 를 클릭하여 설치한 시뮬레이터를 시작합니다.
 
 ![Image title](../img/getting-launcherstart.png){:onclick="window.open(this.src)" title="Click view screen"}
+<br>
 
-이후 **Map and Vehicle** 화면에서 사용할 맵과 차량 모델을 선택 후 시뮬레이터를 실행합니다.
+2] **Map and Vehicle** 화면에서 사용할 맵과 차량 모델을 선택 후 시뮬레이터를 실행합니다.
 
 ![Image title](../img/getting-mapvehicle.png){:onclick="window.open(this.src)" title="Click view screen"}
 

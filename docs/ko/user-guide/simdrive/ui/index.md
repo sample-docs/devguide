@@ -1,19 +1,19 @@
 # MORAI SIM: Drive 사용자 인터페이스
-This section discribes an overview of the MORAI SIM: Air user interface (UI) and provides the detailed information on each UI component.
+MORAI SIM: Drive 시뮬레이터를 구성하는 사용자 인터페이스(User Interface, UI)에 대하여 설명합니다.
 
 ---
 
 ## 사용자 인터페이스 개요
-MORAI SIM: Drive를 구성하는 사용자 인터페이스 개요는 아래와 같습니다.
+MORAI SIM: Drive의 전체 사용자 인터페이스 구성은 아래와 같습니다.
 
-<figure>
-  <img src="../../img/ui-overview1.png" alt="ui overview" style="width: 1000px; height: auto;" title="Click to Enlage" onclick="window.open(this.src)">
-  <figcaption style="padding-top: 10px;"><b> Figure 1. UI overview of MORAI SIM: Air</b> 
-  </figcaption>
-</figure>
+![uioverview](../../img/simdrive-ui-overview.png)
+<figcaption><center><b> 그림 1. MORAI SIM: Drive 전체 사용자 인터페이스 구성</b></center></figcaption>
+
+<br>
+
+- **1] ~ 4]**: 시뮬레이터를 실행하면 나타나는 [기본 화면 UI](default.md) 구성 요소
+- **5]**: [클러스터 및 맵 정보 UI](clustermap.md)
+- **6]**: [주행 정보 UI](driving.md)
 
 
-- [기본 UI](network.md)
-- [계기 정보 UI](sensors.md)
-- [차량 정보 UI](useful.md)
 
