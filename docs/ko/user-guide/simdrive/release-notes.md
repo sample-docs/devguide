@@ -5,7 +5,7 @@ MORAI SIM: Drive에 반영된 변경 및 개선 사항, 오류 수정 사항을 
 
 ## 최신 버전
 
-|  Version        | Release Date | Additions and Changes   | Bug Fixes   | 
+|  Version        | Release Date | Changes and Improvements   | Bug Fixes   | 
 | --------------- | :----------- | ----------------------- | ----------- |
 |  22.R4.2        | 2023/04/14   | N/A                     | [1건](#bug-fixes) |
 

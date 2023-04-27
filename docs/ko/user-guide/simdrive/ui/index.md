@@ -6,7 +6,7 @@ MORAI SIM: Drive 시뮬레이터를 구성하는 사용자 인터페이스(User 
 ## 사용자 인터페이스 개요
 MORAI SIM: Drive의 전체 사용자 인터페이스 구성은 아래와 같습니다.
 
-![uioverview](../../img/simdrive-ui-overview.png)
+![uioverview](../../img/simdrive-ui-overview.png){:onclick="window.open(this.src)" title="Click view screen"}
 <figcaption><center><b> 그림 1. MORAI SIM: Drive 전체 사용자 인터페이스 구성</b></center></figcaption>
 
 <br>
