@@ -8,7 +8,7 @@
 ![uidefault](../../img/simdrive-ui-default.png){:onclick="window.open(this.src)" title="Click view screen"}
 <figcaption><center><b> 그림 1. MORAI SIM: Drive 기본 화면 UI 구성</b></center></figcaption>
 <br>
-시뮬레이터 기본 화면 UI는 시뮬레이터 실행 시 선택한 맵과 차량의 배경을 중심으로 상단의 **1] 툴바**, 하단의 **2] 상태바**, 시뮬레이터 화면 상단 좌우의 **3] 화면 영역 및 카메라 설정**, **4] 환경 설정** 메뉴로 구성됩니다.
+시뮬레이터 기본 화면 UI는 시뮬레이터 실행 시 선택한 맵과 차량의 배경을 중심으로 화면 상단의 **1] 툴바**, 하단의 **2] 상태바**, 시뮬레이터 화면 상단 좌우의 **3] 화면 영역 및 카메라 설정**, **4] 환경 설정** 메뉴로 구성됩니다.
 
 
 ## 1] 툴바
@@ -37,11 +37,11 @@
 - 실행 상태 로그 보기(**+**)
 
     ???+ tip
-        로그 보기 **+** (단축키 `)를 클릭하면 현재 실행 중인 시뮬레이터의 상태 로그를 정보, 경고, 오류 수준별로 확인할 수 있습니다.
+        시뮬레이터 하단 상태바의 맨 우측에서 **+** (단축키 `)를 클릭하면 현재 실행 중인 시뮬레이터의 상태 로그를 정보, 경고, 오류 수준별로 확인할 수 있습니다.
         ![uidefault](../../img/simdrive-ui-log.png){:onclick="window.open(this.src)" title="Click view screen"}
 
 ## 3] 화면 영역 및 카메라 설정
-시뮬레이터의 화면 영역(Viewport)과 화면 보기 카메라를 설정합니다.
+시뮬레이터의 화면 영역(Viewport)과 화면 보기 카메라(Camera)를 설정합니다.
 
   - **Viewport Setting**: 시뮬레이터 화면 상단 좌측의 **톱니바퀴**(**⚙️**) 버튼을 클릭하면 아래와 같이 화면 영역에 보여지는 메뉴를 선택할 수 있습니다.
 
@@ -70,7 +70,7 @@
     ![uidefault](../../img/simdrive-ui-weather.png){:onclick="window.open(this.src)" title="Click view screen" width="300px"}
 
     ???+ tip
-        Weather 항목 중 **Rainy**를 선택하면 실제 빗소리를 포함하여 비오는 주행 환경 재현할 수 있습니다.
+        Weather 항목 중 **Rainy** 를 선택하면 실제 빗소리를 포함하여 비오는 날씨의 주행 환경을 재현할 수 있습니다.
 
         ![uidefault](../../img/simdrive-ui-rain.png){:onclick="window.open(this.src)" title="Click view screen" width="300px"}
 

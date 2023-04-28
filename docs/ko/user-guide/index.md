@@ -6,11 +6,11 @@ MORAI SIM에서 제공하는 사용자 인터페이스 및 기능 사용법을 �
 ![Image title](./img/sim-ug.png){:onclick="window.open(this.src)" title="Click view screen" width=1000}
 
 <br>
-MORAI SIM을 시작하기 위한 요구사항부터, 도메인 제품별 MORAI SIM의 특징 및 사용법을 확인하십시오.
+MORAI SIM을 시작하기 위한 요구사항부터, MORAI SIM의 도메인 제품별 사용자 가이드를 확인하십시오.
 
  - [**MORAI SIM** 소개](intro)
  - [**MORAI SIM** 시작하기](getting-started)
- - [**MORAI SIM: Drive** 확인하기](simdrive)
- - [**MORAI SIM: Air** 확인하기](simair)
- - [**MORAI SIM: Robotics** 확인하기](simrobot)
- - [**MORAI SIM: Maritime** 확인하기](simmari)
+ - [**MORAI SIM: Drive** 사용자 가이드](simdrive)
+ - [**MORAI SIM: Air** 사용자 가이드](simair)
+ - [**MORAI SIM: Robotics** 사용자 가이드](simrobot)
+ - [**MORAI SIM: Maritime** 사용자 가이드](simmari)
