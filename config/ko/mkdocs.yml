@@ -179,8 +179,10 @@ nav:
 
       - How to Use:
         - user-guide/simdrive/how/index.md
+        - Essential Info: user-guide/simdrive/how/essential.md
         - Basic Controls: user-guide/simdrive/how/basic-controls.md
         - Sensor Settings: user-guide/simdrive/how/sensors.md
+        - Scenario Settings: user-guide/simdrive/how/scenario.md
         - Usefule Tooltips: user-guide/simdrive/how/useful.md
 
     - SIM Air: 
