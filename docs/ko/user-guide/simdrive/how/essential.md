@@ -1,81 +1,88 @@
 # 필수 정보
-시뮬레이터를 사용하기에 앞서 시뮬레이터 기준 좌표 및 모델 규격과 같이 반드시 숙지해야 할 필수 정보에 대해 설명합니다.
+시뮬레이터를 사용하기에 앞서, 시뮬레이터 기준 좌표 및 모델 규격과 같이 반드시 숙지해야 할 필수 정보에 대해 설명합니다.
 
 ---
 
 ## 좌표계
-The keys and methods for the throttle to control the output power of the aircraft such as speed and engine RPM are as follows.
+시뮬레이터의 차량, 센서, 맵에서 사용하는 좌표계(Coordinate System)를 설명합니다. <br>
+각 좌표계에 적용된 기준과 좌표값을 해석하는 방법을 설명합니다.
 
-| Key | Action | Note |
-| ----------------------- | -------------------------------------- | -------------------------------------- |
-| `E`            | Increase **Throttle** (up to 1) | Air speed and RPM increase faster with long press |
-| `D`            | Decrease **Throttle** (down to 0) | Air speed and RPM decrease faster with long press |
-| `C`            | Cut and idle **Throttle** | Press once to set the throttle value to zero |
-| `B`            |  Brake on ground | Acts on landing gear brake pads |
+<br>
 
- 
-## Flight Controls
-The keys and methods for controlling each flight control surface and trim for Aileron, Elevator, and Rudder as Primary Control and Flap as Secondary Control are as follows.
+### 위치 좌표계
+시뮬레이터에서 차량의 위치 및 차량에 장착하는 센서의 위치는 아래 좌표계를 기준으로 나타냅니다.
 
-### Primary Flight Control Surfaces
-The control keys for each Aileron, Elevator, and Rudder, which are the control surfaces of the aircraft that control the aircraft's heading and attitude, such as bank, pitch, and yaw, are as follows.
+- 차량 위치 (pose_x, pose_y, pose_z): 시뮬레이터 맵의 원점을 기준으로 한 ENU 좌표 (x, y, z)
+  
+      예를 들어, 시뮬레이터에서 Ego 차량이 최초 스폰되는 위치에 해당하는 ENU 좌표값은 아래 그림과 같습니다. 
 
+    ![uidefault](../../img/carone1.png)
 
-| Key | Action | Note |
-| ----------------------- | -------------------------------------- | -------------------------------------- |
-| Num pad `4` and `6`            | **Aileron** Left and Right | Bank (rolling), x-axis direction control (left/right during flight)  |
-| Num pad `2` and `8`           | **Elevator** Up and Down | Pitching, z-axis direction control |
-| Num pad `7` and `9`           | **Rudder** Left and Right | Yawing, z-axis direction control (left/right on the ground) |
-| Num pad `5`        | **Aileron** and **Rudder** to stabilized position | |
-| `Space`        | **Elevator** to stabilized position | |
+    ???+ tip
+        시뮬레이터에서 ENU 좌표계를 보려면 원하는 화면 위치에 마우스 스크롤을 클릭합니다. 자세한 사용법은 [유용한 사용팁의 좌표 표시 기능](../useful/#_2)을 참고하십시오.
+<br>
 
+  - 센서 위치 (x, y, z): 차량에 장착하는 센서의 위치 좌표 
 
-### Secondary Flight Control Surfaces
-The control keys for Flaps that generate high lift by changing the shape of the main wing are as follows.
+      좌표계 원점 및 각 좌표값 x, y, z는 아래의 차량 위치를 기준으로 계산합니다.
 
-
-| Key | Action | Note |
-| ----------------------- | -------------------------------------- | -------------------------------------- |
-| `R`            | **Flap** 0 stage | Positioned at flap 0 degree in any section  |
-| `F`            | **Flap** retract 1 step |  |
-| `V`            | **Flap** extract 1 step |  |
+    - 원점: 센서를 장착하는 Ego 차량의 뒷바퀴 후륜축 중심
+    - x축: 지면과 평행한 축으로 y축과 수직임
+    - y축: 뒷바퀴 축
+    - z축: 지면에 수직인 축
+    
+    ![uidefault](../../img/sensorone.png)
 
 
-### Trim Flight Control Surfaces
-The trim keys for each fine attitude adjustment of Aileron, Elevator, and Rudder are as follows.
+<br>
+### 센서 좌표계
 
-| Key | Action | Note |
-| ----------------------- | -------------------------------------- | -------------------------------------- |
-| `T`            | Trim the **Elevator** down | Fine adjust the pitch of the elevator down |
-| `G`            | Trim the **Elevator** up | Fine adjust the pitch of the elevator up | 
-| `Y`            | Trim the **Aileron** to the right  | Fine adjust the bank of aileron to the right |
-| `H`            | Trim the **Aileron** to the left  | Fine adjust the bank of aileron to the left |
-| `U`            | Trim the **Rudder** to the right  | Fine adjust the yaw of rudder to the right |
-| `J`            | Trim the **Rudder** to the left  | Fine adjust the yaw of rudder to the left 
- 
-## Other Controls
-The keys to operate the control mode, viewpoint and location of the aircraft in the simulator are as follows.
+시뮬레이터에서 제공하는 센서 모델의 특성에 맞추어, 각 센서를 차량에 장착할 때의 기준으로 하는 좌표계와 이에 따른 센서의 출력 데이터를 확인하는 방법을 설명합니다.
 
-| Key | Action |
-| ----------------------- | -------------------------------------- |
-| `I`            | Return the aircraft's position to its original spawn point | |
-| `Q`            | Toggel between keyboard and joystick in **Manual Control Mode** |
-| **Right-click + Drag ** | Adjust Aircraft View Orientation |
-| **Mouse wheel scrolls up and down ** | Zooming in and out of the simulator screen |
 
-<div markdown="span" class="bs-callout bs-callout-success">
-✅ <span class = "suc-calloutTitle"> TIPS </span> <br>
-<b>Revert to spawn point</b>: Each time <code>I</code> is pressed, the spawn point changes in the order of location of 'Runway 27 → 09 → 03 → 21'.
-</div>
-<p></p>
-<div markdown="span" class="bs-callout bs-callout-success">
-✅ <span class = "suc-calloutTitle"> TIPS </span> <br>
-<b>Adjusting the Aircraft View Orientation</b>: By right-clicking and dragging the mouse on the simulator screen, you can adjust the viewing direction of the aircraft to multiple angles.
-</div>
-<p></p>
-<div markdown="span" class="bs-callout bs-callout-primary">
-ℹ️ <span class = "not-calloutTitle"> NOTE </span> <br>
-The ability to change the spawn location will be added in a future version.
-</div>
+<br>
 
+#### IMU 좌표계
+IMU 센서를 차량에 장착할 시, 아래와 같은 6 자유도계의 값을 고려합니다.
+
+  - x, y, z, roll, pitch, yaw
+
+    <table>
+      <tr>
+        <td><img src="../../../img/imucoord1.png" alt="sensor" style="width: 500px; height: auto;"  title="Click to Enlage" onclick="window.open(this.src)" /></td>
+        <td><img src="../../../img/imucoord2.png" alt="sensor" style="width: 500px; height: auto;"  title="Click to Enlage" onclick="window.open(this.src)" /></td>
+      </tr>
+    </table>  
+
+IMU 좌표계를 기준으로 IMU 센서에서 검출하는 각 데이터의 좌표값은 아래와 같습니다.
+
+  - **Linear_acceleration**
+    - X: IMU 센서의 X 축에 대한 가속도 (전진 + 후진 -)
+
+    - Y: IMU 센서의 Y 축에 대한 가속도 (Left + right -)
+
+    - Z: IMU 센서의 Z 축에 대한 가속도 (UP + Down -)
 <Br>
+
+  - **Angular_velocity**
+
+    - X: IMU 센서의 X 축에 대한 각속도 (Roll)
+
+    - Y: IMU 센서의 Y 축에 대한 각속도 (Pitch)
+
+    - Z: IMU 센서의 Z 축에 대한 각속도(Yaw)
+
+    ???+tip
+        회전축인 각 x, y, z 축을 기준으로 반 시계 방향이 `+`이고, 시계 방향은 `-`이다.
+<br>
+
+  - **Orientation**
+
+    - X: Quaternion X 벡터
+
+    - Y: Quaternion Y 벡터
+
+    - Z: Quaternion Z 벡터
+
+    - W: Quaternion w 벡터
+

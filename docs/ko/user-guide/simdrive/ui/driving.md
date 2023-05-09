@@ -113,8 +113,8 @@ Sur 차량의 **Driving Info** 탭은 아래와 같이 **1] 주행 옵션**, **2
 
 Sur 차량의 **Driving Info** 탭에서 제공하는 1] 주행 옵션은 아래와 같습니다.
 
- - **Ego Mode**:
- - **Viz-Path**:
+ - **Ego Mode**: 설명 필
+ - **Viz-Path**: 설명 필요
 
 <br>
 Sur 차량의 **Driving Info** 탭에서 제공하는 **2] 주행 상태(Vehicle Telemetry)** 옵션 아래와 같습니다.
@@ -122,7 +122,7 @@ Sur 차량의 **Driving Info** 탭에서 제공하는 **2] 주행 상태(Vehicle
  - **Desired Speed Mode**: NPC 차량의 목표 속력(km/h)
       - **Link(%)**: 목표 속력에서 해당 비율만큼을 목표속력으로 설정함(%)
       - **Custom(km/h**): 해당 고정 값을 목표 속력으로 설정함. 이때 ACC나 곡률에 의한 감속등은 내부 알고리즘으로 자동 결정된다. 즉, 해당 차량에 설정할 수 있는 최대 속력를 의미하는 것이며 모든 주행 상태에서의 목표 속력를 의미하는 것은 아니다.
-      - **Path Offset(%)**: ?
+      - **Path Offset(%)**: 설명 필요
 
 <br>
 Sur 차량의 **Driving Info** 탭에서 제공하는 **3] 교통 정보(Traffic Info)** 는 아래와 같습니다.
