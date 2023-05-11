@@ -40,5 +40,5 @@
 
     ![uidefault](../../img/simdrive-ui-mapinfo.png){:onclick="window.open(this.src)" title="Click view screen"}
     
-    맵 정보는 현재 시뮬레이터 상의 원점 정보로 매핑되며, 해당 offset 정보를 가지고  WGS84 좌표계(위도 및 경도 정보)로 변환할 수 있습니다.
+    맵 정보는 현재 시뮬레이터 상의 원점 정보로 매핑되며, 해당 offset 정보를 가지고 WGS84 좌표계(위도 및 경도)로 변환할 수 있습니다.
 
