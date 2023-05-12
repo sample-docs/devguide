@@ -1,5 +1,5 @@
 # 기본 조작
-This section explains how to operate the keys to control propulsion (airspeed and RPM) and flight control surfaces (heading and attitude, altitude) of the aircraft.
+SIM: Drive의 사용자 인터페이스 환경에서 시뮬레이터를 조작하고 차량을 제어하는 방법에 대해 설명합니다.
 
 ---
 

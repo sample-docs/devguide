@@ -15,13 +15,30 @@
 <br>
 
 #### 차량 위치 좌표계
-차량 위치 (pose_x, pose_y, pose_z)는 시뮬레이터 맵의 원점을 기준으로 ENU 좌표계로 나타냅니다.
-  예를 들어, 시뮬레이터에서 Ego 차량이 최초 배치하는 위치 좌표는 아래 그림과 같습니다. 
+시뮬레이터에서 차량 위치는 맵의 원점을 기준으로 ENU 좌표계로 나타냅니다. 또한 차량의 위치를 좌표깂으로 계산할 때는 멥의 원점에서부터 해당 차량의 후륜축 중심점까지의 거리를 계산합니다.
 
-  ![uidefault](../../img/carone1.png)
+예를 들어, 시뮬레이터에서 Ego 차량을 최초 배치(단축키: `i`)했을 때 위치 좌표는 아래 그림과 같습니다. 
+
+![uidefault](../../img/carcenter3.png)
+<figcaption><center><b>그림 1. 시뮬레이터의 차량 스폰 위치 좌표</b></center></figcaption>
 
 ???+ tip
-    시뮬레이터에서 ENU 좌표계를 보려면 원하는 화면 위치에 마우스 스크롤을 클릭합니다. 자세한 사용법은 [유용한 사용팁의 좌표 표시 기능](../useful/#_2)을 참고하십시오.
+    차량의 최초 배치되는 위치 좌표는 차량 후륜축 중심에 GPS 센서를 장착 후, 아래와 같이 검출되는 GPS 데이터(위/경도 값)을 시뮬레이터 기준의 UTM 좌표계로 변환 후, 해당 UTM offset 값을 빼주어 계산합니다.
+
+    ![uidefault](../../img/carcenter-gps.png)
+
+<br>
+
+???+ note
+    ENU 좌표계를 기준으로, 시뮬레이터의 차량 방향은 아래와 같이 나타냅니다.
+
+      - **21년 4월 9일 배포 버전** 부터는
+        - 차량 헤딩 방향은 동쪽이다.
+        - 차량 헤딩 각도는 동쪽을 0도로 두고, 반시계 방향(CCW)으로 증가(+)한다. 
+        
+      - **21년 3월 25일 배포 버전** 까지는:
+        - 차량 헤딩 방향은 북쪽이다.
+        - 차량 헤딩 각도는 북쪽을 0도로 두고, 반시계 방향(CCW)으로 증가(+)한다. 
 
 <br>
 
@@ -33,8 +50,8 @@
   - y축: 뒷바퀴 축
   - z축: 지면에 수직인 축
   
-  ![uidefault](../../img/sensorone.png)
-
+![uidefault](../../img/sensorone.png)
+<figcaption><center><b>그림 2. 시뮬레이터의 센서 위치 좌표계</b></center></figcaption>
 
 <br>
 ### 센서 좌표계
@@ -125,7 +142,8 @@ Velodyne LiDAR 센서에서 검출하는 좌표는 아래와 같이 축 방향�
         <figcaption><center><b>64 Ch. LiDAR</b></center></figcaption>
       </td>
       <td><img src="../../../img/essential-lidar4.png" alt="sensor" style="width: 500px; height: auto;"  title="Click to Enlage" onclick="window.open(this.src)" />
-        <figcaption><center><b>128 Ch. LiDAR</b></center></figcaption>
+      <br>
+      <figcaption><center><b>128 Ch. LiDAR</b></center></figcaption>
       </td>
     </tr>
   </table>
@@ -158,6 +176,7 @@ Velodyne LiDAR 센서에서 검출하는 좌표는 아래와 같이 축 방향�
         <figcaption><center><b>64 Ch. LiDAR</b></center></figcaption>
       </td>
       <td><img src="../../../img/essential-lidar-ros2.png" alt="sensor" style="width: 500px; height: auto;"  title="Click to Enlage" onclick="window.open(this.src)" />
+        <br><br>
         <figcaption><center><b>128 Ch. LiDAR</b></center></figcaption>
       </td>
     </tr>
@@ -165,10 +184,16 @@ Velodyne LiDAR 센서에서 검출하는 좌표는 아래와 같이 축 방향�
 
 <br>
 ###  맵 좌표계
+시뮬레이터의 맵에서 기준으로 하는 좌표계에 대해서 설명합니다.
 
-시뮬레이터의 맵에서 기준으로 하는 지구 좌표계에 대해서 설명합니다.
+시뮬레이터 내 존재하는 모든 객체의 위치는 [차량 위치 좌표](#_4)처럼, 아래와 같은 ENU 좌표계로 나타냅니다. 
 
-시뮬레이터 맵에서 표현하는 모든 객체의 위치는 [차량 위치 좌표](#_4)에서 설명한 바와 같이, ENU 좌표계로 나타냅니다. 
+![uidefault](../../img/mapenu.png)
+<figcaption><b>그림 3. 시뮬레이터 맵 좌표계</b></figcaption>
+
+???+ tip
+    시뮬레이터 내 ENU 좌표 값을 확인하려면 원하는 화면 위치에 마우스 스크롤을 클릭합니다. 자세한 사용법은 [유용한 사용팁의 좌표 표시 기능](../useful/#_2)을 참고하십시오.
+
 
 이러한 ENU 좌표값을 실제 지구 상에 위치하는 좌표값으로 변환하고자 할 때는 세계에서 통용되고 있는 투영좌표계인 [UTM 좌표계](https://ko.wikipedia.org/wiki/UTM_%EC%A2%8C%ED%91%9C%EA%B3%84)를 기준으로 계산합니다.
 
@@ -180,4 +205,5 @@ Velodyne LiDAR 센서에서 검출하는 좌표는 아래와 같이 축 방향�
     {"isUtm":true,"utnNum":52,"utmOffset":{"x":302459.942,"y":4122635.537,"z":28.991},"projData":{"SPHEROID":"WGS84","LatitudeOfOrigin":0.0,"CentralMeridian":0.0,"ScaleFactor":1.0,"FalseEasting":0.0,"FalseNorthing":0.0}}
 
 
-
+## 맵과 차량 모델 사양
+시뮬레이터에서 제공하는 맵과 차량 모델의 사양 정보에 대해 설명합니다.

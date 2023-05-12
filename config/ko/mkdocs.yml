@@ -164,7 +164,7 @@ nav:
     - Getting Started:
       - user-guide/getting-started/index.md
       - System Requirements: user-guide/getting-started/requirements.md
-      - Run Simulator: user-guide/getting-started/execution.md
+      - Run MORAI SIM: user-guide/getting-started/execution.md
 
     - SIM Drive:
       - user-guide/simdrive/index.md
@@ -183,7 +183,7 @@ nav:
         - Basic Controls: user-guide/simdrive/how/basic-controls.md
         - Sensor Settings: user-guide/simdrive/how/sensors.md
         - Scenario Settings: user-guide/simdrive/how/scenario.md
-        - Usefule Tooltips: user-guide/simdrive/how/useful.md
+        - Useful Tooltips: user-guide/simdrive/how/useful.md
 
     - SIM Air: 
       - user-guide/simair/index.md
