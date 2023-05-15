@@ -3,13 +3,13 @@ site_name: SIM 1.0 KR
 docs_dir: '../../docs/ko'
 site_dir: '../../site'
 site_url: https://morai-docs.github.io/sim1.0/site
-site_author: MORAI Engineering Service Team
 site_description: Release Documentation for MORAI SIM 1.0 KR
 site_author: MORAI Engineering Service Team
 
 # Repository
 repo_name: morai-docs/sim1.0
 repo_url: https://github.com/morai-docs/sim1.0
+edit_uri: blob/main/docs/ko/
 
 copyright: Copyright &copy; 2023 <a href="https://www.morai.ai">MORAI Inc.</a> Maintained by the <a href="https://github.com/morai-docs">MORAI-Docs Team.</a>
 
@@ -160,7 +160,6 @@ nav:
     - Introduction:
       - user-guide/intro/index.md
 
-
     - Getting Started:
       - user-guide/getting-started/index.md
       - System Requirements: user-guide/getting-started/requirements.md
@@ -168,15 +167,12 @@ nav:
 
     - SIM Drive:
       - user-guide/simdrive/index.md
-
       - Release Note: user-guide/simdrive/release-notes.md
-
       - User Interface: 
         - user-guide/simdrive/ui/index.md
         - Defualt Screen UI: user-guide/simdrive/ui/default.md
         - Cluster and Map Info UI: user-guide/simdrive/ui/clustermap.md
         - Vehicle Info UI: user-guide/simdrive/ui/driving.md
-
       - How to Use:
         - user-guide/simdrive/how/index.md
         - Essential Info: user-guide/simdrive/how/essential.md
@@ -187,12 +183,10 @@ nav:
 
     - SIM Air: 
       - user-guide/simair/index.md
-
       - User Interface: 
         - user-guide/simair/ui/index.md
         - user-guide/simair/ui/default.md
         - user-guide/simair/ui/instruments.md
-
       - How to Use:
         - user-guide/simair/how/index.md
         - Basic Controls: user-guide/simair/how/basic-controls.md

@@ -52,3 +52,28 @@ table pre {
   margin-bottom: 0;
   font-size: 17px;
 }
+
+
+/*230515*/
+
+.md-typeset h1 {
+  font-size: 1.7em;
+}
+
+.md-typeset h2 {
+  /* font-size: 1.5em; */
+  margin-top: 2.5em;
+  line-height: 1em;  
+}
+
+.md-typeset h3 {
+  /* font-size: 1.4em; */
+  margin-top: 2.5em;
+  line-height: 1em;  
+}
+
+.md-typeset h4 {
+  /* font-size: 1.3rem; */
+  margin-top: 2.5em;
+  line-height: 1em;  
+}

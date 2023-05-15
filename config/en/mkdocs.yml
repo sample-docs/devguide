@@ -9,6 +9,7 @@ site_author: MORAI Engineering Service Team
 # Repository
 repo_name: morai-docs/sim1.0
 repo_url: https://github.com/morai-docs/sim1.0
+edit_uri: blob/main/docs/en
 
 copyright: Copyright &copy; 2023 <a href="https://www.morai.ai">MORAI Inc.</a> Maintained by the <a href="https://github.com/morai-docs">MORAI-Docs Team.</a>
 
@@ -18,7 +19,6 @@ theme:
   name: material
   custom_dir: '../../material/.overrides'
   logo: assets/logo.png
-
   features:
     - announce.dismiss
     - content.action.edit
@@ -77,6 +77,10 @@ plugins:
 
 # Customization
 extra:
+  social:
+    - icon: fontawesome/brands/github
+      link: https://github.com/morai-docs
+
   alternate:
     - name: Korean
       link: /sim1.0/site/ 
@@ -85,6 +89,9 @@ extra:
     - name: English
       link: /sim1.0/site/en/ 
       lang: en
+
+extra_css:
+  - extra.css     
 
 
 # Extensions
@@ -133,11 +140,13 @@ markdown_extensions:
 # Page tree
 nav:
   - Home: index.md
+
   - Getting Started:
     - getting-started/index.md
     - System Requirements: getting-started/requirements.md
     - Execution: getting-started/execution.md
     - getting-started/network.md
+
   - SIM Drive: 
     - simdrive/index.md
     - Release Note: simdrive/release/release-notes.md
