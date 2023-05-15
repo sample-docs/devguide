@@ -1,13 +1,14 @@
 
-.md-typese p {
-  font-size: 16px; /*230316*/
-  line-height: 1.5rem; /*230316*/
+.md-typeset p {
+  font-size: 15px; /*230316*/
+  line-height: 1.2rem; /*230316*/
 }
 
 .md-typeset .admonition,
 .md-typeset details {
   border-width: 0;
   border-left-width: 4px;
+  font-size: 14px;
 }
 
 .md-typeset pre {
@@ -21,6 +22,7 @@ p pre {
     border: 0;
     margin: 0 2px;
     padding: 0 5px;
+    /* font-size: 15px; */
 }
 
 
@@ -35,10 +37,10 @@ table pre {
   height: auto;
   display: block;
 
-
+  padding-top: 10px;
   margin-bottom: 0;
   /* padding-top: 5px; */
-  padding-bottom: -1;
+  padding-bottom: 0px;
 
   border: 0;
   -ms-interpolation-mode: bicubic;
@@ -48,11 +50,17 @@ table pre {
 
 .md-typeset figure {
   padding-top: 0px;
-  padding-bottom: -1;
+  padding-bottom: 0px;
   margin-bottom: 0;
-  font-size: 17px;
+  font-size: 14px;
 }
 
+.md-typeset figcaption {
+  padding-top: 0px;
+  padding-bottom: 10px;
+  /* margin-bottom: 20px; */
+  font-size: 14px;
+}
 
 /*230515*/
 
@@ -76,4 +84,13 @@ table pre {
   /* font-size: 1.3rem; */
   margin-top: 2.5em;
   line-height: 1em;  
+}
+
+.md-typeset blockquote {
+  font-size: 14px; /*230316*/
+}
+
+.rst-content li {
+  line-height: 2rem; /*230316*/
+  font-size: 15px; /*230316*/
 }

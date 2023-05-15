@@ -1,11 +1,11 @@
 # MORAI SIM: Drive 사용자 가이드
 **MORAI SIM: Drive** 의 도메인 특성이 반영된 사용자 인터페이스와 사용 방법을 안내합니다.
-
 ![simdrive](../img/simdrive-main.png)
 
 <br>
+**MORAI SIM: Drive** 공식 배포 버전의 릴리스 노트부터 사용자 인터페이스를 통한 주요 기능 사용 방법을 확인하십시오.
 
-- [MORAI SIM: Drive 공식 배포 버전 릴리스 노트](release-notes)
+- [MORAI SIM: Drive 릴리스 노트](release-notes)
 - [MORAI SIM: Drive 사용자 인터페이스](ui)
 - [MORAI SIM: Drive 사용하기](how)
 

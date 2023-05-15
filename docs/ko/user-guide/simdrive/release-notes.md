@@ -9,13 +9,10 @@ MORAI SIM: Drive에 반영된 변경 및 개선 사항, 오류 수정 사항을 
 | --------------- | :----------- | ----------------------- | ----------- |
 |  22.R4.2        | 2023/04/14   | N/A                     | [1건](#bug-fixes) |
 
-<br>
-
 ### 변경 및 개선 사항
 
 ??? Info "해당 없음"
 
-<br>
 ### 오류 수정 사항
 
 ??? bug "Ego Vehicle 정지 오류"
@@ -34,8 +31,6 @@ MORAI SIM: Drive에 반영된 변경 및 개선 사항, 오류 수정 사항을 
 ??? bug "객체 삭제 불가 오류"
     - 특정 차량 객체, **OBJ_Hyundai_Xcient_P520** 배치 후 삭제 불가 오류 수정
     ![Image title](../img/rel-bug3.png){:onclick="window.open(this.src)" title="Click view screen"}
-<br>
-
 
 ## 지난 버전
 지난 버전에 대한 변경 이력은 이전 기술 문서 사이트의 [릴리스 노트](https://help-morai-sim.scrollhelp.site/morai-sim-standard-kr/release-notes){:target="_blank"}를 참고하십시오.

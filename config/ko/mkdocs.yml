@@ -175,8 +175,8 @@ nav:
         - Vehicle Info UI: user-guide/simdrive/ui/driving.md
       - How to Use:
         - user-guide/simdrive/how/index.md
-        - Essential Info: user-guide/simdrive/how/essential.md
-        - Basic Controls: user-guide/simdrive/how/basic-controls.md
+        - Basic Info: user-guide/simdrive/how/essential.md
+        - Operation: user-guide/simdrive/how/basic-controls.md
         - Sensor Settings: user-guide/simdrive/how/sensors.md
         - Scenario Settings: user-guide/simdrive/how/scenario.md
         - Useful Tooltips: user-guide/simdrive/how/useful.md

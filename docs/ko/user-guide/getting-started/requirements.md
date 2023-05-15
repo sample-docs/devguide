@@ -5,7 +5,6 @@
 
 ## 시스템 사양
 **MORAI SIM** 을 실행하는 시스템의 사양은 기본 사양과 추천 사양으로 구분합니다.
-[ 라이선스](#) 참고 필요
 
 ### 기본 사양
 MORAI SIM을 실행하기 위한 최소 기본 사양은 아래와 같습니다.
@@ -26,27 +25,21 @@ MORAI SIM에서 다수의 카메라 및 라이다 센서를 사용할 경우, �
 - Windows: 10 or higher
 - Linux: Ubuntu 18.04 LTS or higher
 
-<br>
-
 ## 시스템 구성
 MORAI SIM을 실행하는 시스템 구성 방식 및 각 시스템에서 사용하는 통신은 아래와 같습니다.
 
 ### 단일 시스템
 자율주행 로직과 시뮬레이터가 동일 시스템에서 실행하는 방식입니다. <Br>
 단일 시스템 내에서 자율주행 로직과 시뮬레이터 간 통신으로 ROS, UDP를 사용합니다.
-
 ![Image title](../img/getting-singlesystem.png){:onclick="window.open(this.src)" title="Click view screen"}
 
 ### 멀티 시스템
 자율주행 로직과 시뮬레이터가 서로 다른 시스템에서 실행하는 방식입니다. <Br>
 각 시스템은 Ethernet 또는 Wi-Fi로 연결되며, 자율주행 로직과 시뮬레이터 간 통신으로 ROS, UDP를 사용합니다.
-
 ![Image title](../img/getting-multisystem.png){:onclick="window.open(this.src)" title="Click view screen"}
 
 ???+ warning
     ROS 통신의 경우, 리눅스 운영체제 시스템에서만 동작하므로 ROS 통신으로, 단일 시스템 혹은 멀티 시스템 내에 시뮬레이터를 제어하는 자율주행 로직은 우분투 운영체제에서 실행해야 합니다.
-
- <br>
 
 ## 라이선스
 시뮬레이터를 실행하려면 사용자 시뮬레이터 제품에 맞는 유효한 라이선스가 필요합니다.

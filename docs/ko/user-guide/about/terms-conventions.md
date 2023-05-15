@@ -4,7 +4,7 @@
 
 ---
 
-## 주요 용어 및 약
+## 주요 용어 및 약어
 본 문서에서 사용되는 주요 용어 및 약어는 아래와 같습니다.
 
 | Terms and Abbreviations | Descriptions                           |
