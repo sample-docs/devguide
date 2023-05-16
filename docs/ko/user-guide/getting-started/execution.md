@@ -17,10 +17,9 @@ MORAI SIM 실행 순서 및 방법에 대하여 설명합니다.
 ![Image title](../img/getting-launcher.png){:onclick="window.open(this.src)" title="Click view screen"}
 
 ### 리눅스에서 런처 실행
-런처 프로그램의 압축 해제 후 아래와 같이 런처를 실행합니다.
+런처 프로그램의 압축 해제 후 아래와 같이 런처 실행 파일에 권한을 부여하여 실행합니다.
 ![Image title](../img/getting-launcherlinux.png){:onclick="window.open(this.src)" title="Click view screen"}
 
-런처 실행 파일에 대하여 권한 부여 및 실행
 ``` shell
 $ chmod +x MORAISim.sh
 $ chmod +x MoraiLauncher_Lin.x86_64

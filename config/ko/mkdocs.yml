@@ -59,7 +59,7 @@ theme:
   font:
     text: sans-serif
     code: Roboto Mono
-  favicon: 'assets/favicon2.png'
+  favicon: 'assets/favicon.png'
   icon:
     logo: logo
   language: ko

@@ -4,11 +4,12 @@
   line-height: 1.2rem; /*230316*/
 }
 
-.md-typeset .admonition,
+.md-typeset .admonition p,
 .md-typeset details {
+  font-family: Roboto;
+  font-size: 15px; /*230316*/
   border-width: 0;
   border-left-width: 4px;
-  font-size: 14px;
 }
 
 .md-typeset pre {
@@ -25,6 +26,9 @@ p pre {
     /* font-size: 15px; */
 }
 
+.md-typeset code, li code, pre, li pre {
+  font-size: 14px; 
+}
 
 .md-typeset table code,
 table pre {
@@ -65,17 +69,17 @@ table pre {
 /*230515*/
 
 .md-typeset h1 {
-  font-size: 1.7em;
+  font-size: 1.8em;
 }
 
 .md-typeset h2 {
-  /* font-size: 1.5em; */
+  font-size: 1.5em;
   margin-top: 2.5em;
   line-height: 1em;  
 }
 
 .md-typeset h3 {
-  /* font-size: 1.4em; */
+  font-size: 1.3em;
   margin-top: 2.5em;
   line-height: 1em;  
 }
@@ -87,10 +91,10 @@ table pre {
 }
 
 .md-typeset blockquote {
-  font-size: 14px; /*230316*/
+  font-size: 15px; /*230316*/
 }
 
-.rst-content li {
-  line-height: 2rem; /*230316*/
+.md-typeset li {
+  line-height: 1.5rem; /*230316*/
   font-size: 15px; /*230316*/
 }

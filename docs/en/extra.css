@@ -1,11 +1,13 @@
-
-.md-typese p {
-  font-size: 16px; /*230316*/
+.md-typeset p, li {
+  font-size: 15px; /*230316*/
   line-height: 1.5rem; /*230316*/
 }
 
+
 .md-typeset .admonition,
 .md-typeset details {
+  font-family: Roboto;
+  font-size: 15px; /*230316*/
   border-width: 0;
   border-left-width: 4px;
 }
@@ -23,6 +25,9 @@ p pre {
     padding: 0 5px;
 }
 
+.md-typeset code, li code, pre, li pre {
+  font-size: 14px; 
+}
 
 .md-typeset table code,
 table pre {
@@ -57,7 +62,7 @@ table pre {
 /*230515*/
 
 .md-typeset h1 {
- /*  font-size: 1.7em; */
+  font-size: 1.8em;
 }
 
 .md-typeset h2 {
