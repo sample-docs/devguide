@@ -5,7 +5,7 @@
 ---
 
 - [기본 숙지 사항](essential.md)
-- [Basic Controls](basic-controls.md)
+- [시뮬레이터 조작 방법](basic-controls.md)
 - [Network Configurations](network.md)
 - [Sensors](sensors.md)
 - [Useful Tooltips](useful.md)
