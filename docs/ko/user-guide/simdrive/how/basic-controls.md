@@ -69,8 +69,8 @@
 ???+ tip
     외부 게임휠이 연결된 상태에서 차량 제어 모드 변경 순서는 **Keyboard → Auto → GameWheel** 입니다.
 
-### **Keyboard** 모드
-차량을 제어하는 주요 키 정보는 아래와 같습니다.
+### 키보드(**Keyboard**) 모드
+**Keyboard** 모드에서 차량 제어 시 사용하는 주요 키 정보는 아래와 같습니다.
 
 | Key | Action | Note |
 | --- | ------ | ---- |
@@ -92,20 +92,16 @@
 
     키보드 단축키 중 키보드 모드에서 사용하는 **Countrol** 및 **Gear** 키는 Auto 모드에서 동작하지 않습니다.
 
- 
-
-F1 키를 누르면 아래와 같은 키보드 단축키 정보를 확인할 수 있다.
-
-### **GameWheel** 모드
-시뮬레이터 **22.R4** 버전부터 적용되는 게임휠 조작 방식은 아래와 같습니다.
+### 게임휠(**GameWheel**) 모드
+시뮬레이터 **22.R4** 버전부터 적용되는 **GameWheel** 모드의 조작 방식은 아래와 같습니다.
 
 ???+ note
-    게임휠을 설치하여 시뮬레이터와 연동하기 및 게임휠 자체의 키정보는 별도 가이드를 참고하십시오.
+    게임휠 설치 및 시뮬레이터와 연동하기는 [별도 가이드](https://help-morai-sim.atlassian.net/wiki/external/234651707/ZGJjMTY5NmQwNzA2NGU5OWJkZTUyMzY0MzNjMWQ5YzM)를 참고하십시오.
 
 #### 방향지시등 및 비상등
 방향지시등과 비상등 간의 조작 방식은 아래와 같습니다.
- 
-- 점등 우선 순위는 비상등이  좌/우 방향 지시등에 우선한다.
+
+- 점등 우선 순위는 비상등이 좌/우 방향 지시등에 우선한다.
   
     예: 좌측 방향지시등 ON 상태에서 비상등을 ON하면 비상등이 동작한다(양측 방향지시등 ON). 
     이 상태에서 비상등을 OFF하면 다시 좌방향 지시등 ON 상태로 복구된다.
@@ -113,7 +109,7 @@ F1 키를 누르면 아래와 같은 키보드 단축키 정보를 확인할 수
 - 좌측 방향지시등 ON 상태에서 우측 방향지시등을 ON하면  좌측 방향지시등은 OFF된다.
 
 #### 주차 브레이크
-주차 브레이크를 작동하기 위한 조작 방식은 아래와 같습니다.
+주차 브레이크의 조작 방식은 아래와 같습니다.
 
 - 기어 상태(P/R/N/D)와 상관 없이, 시속 0.5km/h 이하에서 브레이크 페달을 밟고, 주차 브레이크 버튼을 누른다.
 
@@ -125,15 +121,91 @@ F1 키를 누르면 아래와 같은 키보드 단축키 정보를 확인할 수
 
 - R 혹은 D단에서 엑셀 입력을 1% 이상 가하면  주차 브레이크가 자동 해제된다(브레이크 입력은 고려하지 않음).
 
-
 ## 차량 주행 모드 
+시뮬레이터에서 제공하는 주행 모드의 기능과 각 주행 모드에서 차량을 제어하는 방법에 대해 설명합니다.
 
-주행 모드 별 차량 제어 방법
+### 크루즈(**Cruise**) 모드
+**Cruise Mode** 는 Ego 차량을 시뮬레이터에서 자율주행 모드로 주행할 수 있는 기능입니다.
 
+아래와 같이 **Vehicle Info** >  Ego 차량에 대한 **Driving Info** 탭에서 **Cruise Mode** 옵션을 활성화합니다.
+![uidefault](../../img/simdrive-how-cruisemode.png)
 
-### 크루즈 모드
+**Cruise Mode** 를 활성화하면 하단에 **Viz-Path** 옵션이 생성되는 것을 확인할 수 있습니다.
+![uidefault](../../img/simdrive-how-vizpath.png){:onclick="window.open(this.src)" title="Click view screen" width="300px"}
 
+???+ tip
+    **Viz-Path** 는 **Cruise Mode** 상태에서 차량의 주행 경로를 시각화하는 기능입니다.
+
+#### Vehicle Telemetry
+
+**Cruise Mode** 에서 Ego 차량의 주행 파라미터 정보는 아래와 같습니다.
+![uidefault](../../img/simdrive-how-cruisetele.png)
+
+ - **Control Mode**: 현재 차량의 조작 모드(Cruise Mode 활성화 시 Cruise Mode로 표시)
+ - **Driving State Init**: 차량의 상태 정보 초기화 옵션(활성화 시 이전 상태 유지 안함)
+ - **Current Speed (km/h)**: 현재 차량의 종방향 속력
+ - **Driving Parameter**
+     - **Desired Speed (km/h)**: 현재 차량이 따라가고 있는 종방향 목표 속력
+     - **Constant**: **Link** 와 **Custom** 에 단일 값 입력
+     - **Variable**: **Link** 와 **Custom** 에 Range 값 입력
+         - **Link (%):** 차량이 따라가는 패스 링크에 Desired Speed가 사전에 부여되어 있으며, Desired Speed에 곱하는 백분율만큼 차량의 실제 Desired Speed 결정
+         - **Custom (km/h)**: Default 값, 60으로 설정되어 있으며 사용자가 변경 가능
+ - **Acceleration (m/s^2)**: 차량 좌표계 기준 선형 가속력를 표시
+ - **Angular Speed (deg/s)**: 차량의 각속력을 표시
+ - **Vehicle Rotation (deg, ENU)**: 동북상 좌표계 기준 차량의 회전 포즈를 표시
+ - **Accel, Brake**: 액셀과 브레이크 페달의 밟기 정도를 표시(1에 가까울수록 액셀 및 브레이크를 완전히 밟은 상태)
+ - **Steer Angle (deg)**: 현재 차량의 조향각을 표시
+ - **Gear**: 현재 차량의 기어 상태를 표시
+
+#### Traffic Info
+**Cruise Mode** 에서 Ego 차량이 인지하는 교통 정보는 아래와 같습니다.
+![uidefault](../../img/simdrive-how-cruisetraffic.png)
+
+???+ tip
+    **Driving Info** 탭에서 우측 스크롤을 완전히 내려야 위 그림과 같은 **Traffic Info** 의 정보를 모두 확인할 수 있습니다.
+
+- **Traffic Light Index**: 차량이 마주하는 신호등의 Index
+- **Traffic Light Status**: 신호등 색상(교통 정보) 
+    - **R**: 빨강(정지)
+    - **SG**: 초록(직진)
+    - **G_with_GLeft**: 초록(직진 및 좌회전)
+- **Current Link**: 현재 차량이 패스로 따라가고 있는 mgeo link의 Index
+- **Target Link**: 현재 차량이 목표로 하고 있는 MGEO link의 Index
+- **Stop Line Index**: 현재 차량이 마주하고 있는 정지선의 Index.
+- **Stop Line Distance (m)**: 현재 차량이 마주하고 있는 정지선과의 상대거리
+- **Collision Distance (m)**: 앞에 충돌가능성이 있는 물체(차량, 장애물 등)와의 거리를 단위는 m이며 검색되지 않을 시 999로 표현함
+  
 ### Progressive Steer 모드
+Progressive Steer 모드는 Ego 차량의 바퀴 조타 속도 및 바퀴 원위치 속도를 제한하는 변수를 활용하여 주행하는 기능입니다. 
+
+아래와 같이 **Vehicle Info** > Ego 차량에 대한 **Driving Info** 탭에서 **Progressive Steer** 옵션을 활성화합니다.
+![uidefault](../../img/simdrive-how-progress.png)
+
+<br>
+Progressive Steer 옵션 활성화하면  Steering Wheel이 회전하고 원위치로 복귀하기가 무거워집니다.
+
+Progressive Steer 모드의 입력 변수는 아래와 같습니다.
+
+- **Movement Rate**: 조향 입력이 있을 때 조타 속도를 제한하는 변수
+
+- **Auto Center Rate**: 조향 입력이 없을 때 바퀴가 원위치로 돌아가려는 속도를 제한하는 변수
+
+Movement Rate와 Auto Center Rate는 사전에 고정된 값으로 설정됩니다. 
+Progressive Steer Mode의 각 변수값을 변경하려면 MORAI SIM: Drive의 애드온 모듈인 **Advanced Vehicle Dynamics**  를 추가해야 합니다. 
+
+<figure>
+<img src="../../../img/simdrive-how-dynamics.png" alt="sensor" style="width: 500px; height: auto; text-align: center"  title="Click to Enlage" onclick="window.open(this.src)">
+<figcaption><center><b>그림 2. Vehicle Dynamics의 Progressive Steer Mode 설정 화면</b></center></figcaption>
+</figure>
 
 ### Driving State Init 모드
+Driving State Init 모드는 차량 제어 모드 변경 시 Ego 차량의 이전 상태 초기화하는 기능입니다.
+
+아래와 같이 **Ego 차량** / **Driving Info** 탭 > **Vehicle Telemetry** 에서 **Driving State Init** 옵션을 활성화합니다.
+![uidefault](../../img/simdrive-how-drivinginit.png)
+
+**Driving State Init** 옵션은 아래와 같이 동작합니다.
+
+- Toggle On (활성화): 제어 모드 변경 시, Ego Vehicle 상태가 초기화됨
+- Toggle Off (비활성화): 제어 모드 변경 시, Ego Vehicle 이전 상태 유지함
 
