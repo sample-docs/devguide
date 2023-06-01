@@ -177,10 +177,12 @@ nav:
         - user-guide/simdrive/how/index.md
         - Basic Info: user-guide/simdrive/how/essential.md
         - Operation: user-guide/simdrive/how/basic-controls.md
-        - Sensor Settings: user-guide/simdrive/how/sensors.md
-        - Scenario Settings: user-guide/simdrive/how/scenario.md
-        - Useful Tooltips: user-guide/simdrive/how/useful.md
-
+        - Sensors: user-guide/simdrive/how/sensors.md
+        - Scenario: user-guide/simdrive/how/scenario.md
+        - Network Settings: user-guide/simdrive/how/network.md
+      - Tooltips:
+        - user-guide/simdrive/tooltips/index.md
+    
     - SIM Air: 
       - user-guide/simair/index.md
       - User Interface: 

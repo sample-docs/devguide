@@ -194,7 +194,7 @@ Movement Rate와 Auto Center Rate는 사전에 고정된 값으로 설정됩니�
 Progressive Steer Mode의 각 변수값을 변경하려면 MORAI SIM: Drive의 애드온 모듈인 **Advanced Vehicle Dynamics**  를 추가해야 합니다. 
 
 <figure>
-<img src="../../../img/simdrive-how-dynamics.png" alt="sensor" style="width: 500px; height: auto; text-align: center"  title="Click to Enlage" onclick="window.open(this.src)">
+<img src="../../../img/simdrive-how-dynamics.png" alt="sensor" style="width: 500px; height: auto; text-align: center" title="Click to Enlage" onclick="window.open(this.src)">
 <figcaption><center><b>그림 2. Vehicle Dynamics의 Progressive Steer Mode 설정 화면</b></center></figcaption>
 </figure>
 

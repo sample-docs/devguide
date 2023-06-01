@@ -34,8 +34,9 @@
 
 #### Ego 차량 Driving Info
  Ego 차량의 **Driving Info** 탭은 아래와 같이 **1] 주행 옵션**, **2] 주행 상태(Vehicle Telemetry)**, **3] 교통 정보(Traffic Info)** 로 구성됩니다. 
-![uidefault](../../img/simdrive-ui-drivinginfoego.png){:onclick="window.open(this.src)" width="300px" title="Click view screen"}
+![uidefault](../../img/simdrive-ui-drivinginfoego.png){:onclick="window.open(this.src)" width="500px" title="Click view screen"}
 <figcaption><b> 그림 3. Ego 차량의 Driving Info 탭 구성</b></figcaption>
+<br>
 
 Ego 차량의 **Driving Info** 탭에서 제공하는 **1] 주행 옵션** 은 아래와 같습니다.
 
