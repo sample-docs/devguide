@@ -1,5 +1,5 @@
-# MORAI SIM: Air 사용자 가이드
-**MORAI SIM: Air** 의 도메인 특성이 반영된 사용자 인터페이스와 사용 방법을 안내합니다.
+# SIM: Maritime 사용하기
+자율 항공기의 도메인 특성이 반영된 **SIM: Air** 의 사용자 인터페이스와 사용 방법을 안내합니다.
 
 ![simdrive](../img/simair-main.png)
 

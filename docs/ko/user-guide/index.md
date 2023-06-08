@@ -9,7 +9,7 @@ MORAI SIM을 시작하기 위한 요구사항부터, MORAI SIM의 도메인 제�
 
  - [**MORAI SIM** 소개](intro)
  - [**MORAI SIM** 시작하기](getting-started)
- - [**MORAI SIM: Drive** 사용자 가이드](simdrive)
- - [**MORAI SIM: Air** 사용자 가이드](simair)
- - [**MORAI SIM: Robotics** 사용자 가이드](simrobot)
- - [**MORAI SIM: Maritime** 사용자 가이드](simmari)
+ - [**SIM: Drive** 사용하기](simdrive)
+ - [**SIM: Air** 사용하기](simair)
+ - [**SIM: Robotics** 사용하기](simrobot)
+ - [**SIM: Maritime** 사용하기](simmari)

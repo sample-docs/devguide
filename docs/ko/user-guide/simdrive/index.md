@@ -1,13 +1,16 @@
-# MORAI SIM: Drive 사용자 가이드
-**MORAI SIM: Drive** 의 도메인 특성이 반영된 사용자 인터페이스와 사용 방법을 안내합니다.
+# SIM: Drive 사용하기
+자율주행 차량의 도메인 특성이 반영된 **SIM: Drive** 의 사용자 인터페이스와 사용 방법을 안내합니다.
 ![simdrive](../img/simdrive-main.png)
 
 <br>
-**MORAI SIM: Drive** 공식 배포 버전의 릴리스 노트부터 사용자 인터페이스를 통한 주요 기능 사용 방법을 확인하십시오.
+**MORAI SIM: Drive** 공식 배포 버전 별 릴리스 노트부터 사용자 인터페이스, 시뮬레이터 사용을 위한 필수 정보 및 기본 조작법, 네트워크, 센서, 시나리오와 같은 SIM Drive의 주요 기능 사용하기까지 확인하십시오.
 
-- [MORAI SIM: Drive 릴리스 노트](release-notes)
-- [MORAI SIM: Drive 사용자 인터페이스](ui)
-- [MORAI SIM: Drive 사용하기](how)
+- [릴리스 노트](release-notes)
+- [사용자 인터페이스](ui)
+- [필수 정보](how/essential.md)
+- [기본 조작법](how/basic-controls.md)
+- [네트워크 설정](network)
+- [센서 사용하기](sensors)
 
 
 <!-- 

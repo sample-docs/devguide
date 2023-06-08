@@ -1,4 +1,4 @@
-# MORAI SIM: Drive 사용자 인터페이스
+# SIM: Drive 사용자 인터페이스
 MORAI SIM: Drive 시뮬레이터의 사용자 인터페이스(User Interface, UI) 구성에 대하여 설명합니다.
 
 ---

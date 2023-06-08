@@ -173,13 +173,25 @@ nav:
         - Defualt Screen UI: user-guide/simdrive/ui/default.md
         - Cluster and Map Info UI: user-guide/simdrive/ui/clustermap.md
         - Vehicle Info UI: user-guide/simdrive/ui/driving.md
-      - How to Use:
-        - user-guide/simdrive/how/index.md
-        - Basic Info: user-guide/simdrive/how/essential.md
-        - Operation: user-guide/simdrive/how/basic-controls.md
-        - Sensors: user-guide/simdrive/how/sensors.md
-        - Scenario: user-guide/simdrive/how/scenario.md
-        - Network Settings: user-guide/simdrive/how/network.md
+      #- How to Use:
+      #  - user-guide/simdrive/how/index.md     
+      #  - Basic Info: user-guide/simdrive/how/essential.md
+      #  - Operation: user-guide/simdrive/how/basic-controls.md
+      #  - Sensors: user-guide/simdrive/how/sensors.md
+      - Essential Information: user-guide/simdrive/how/essential.md
+      - Basic Controls: user-guide/simdrive/how/basic-controls.md
+      - Network Settings:
+        - user-guide/simdrive/network/index.md
+        - Basic Settings: user-guide/simdrive/network/usage.md
+      - Sensors: 
+        - user-guide/simdrive/sensors/index.md
+        - Basic Usage: user-guide/simdrive/sensors/usage.md
+        - Capture Usage: user-guide/simdrive/sensors/capture.md
+        - Setting Parameters: user-guide/simdrive/sensors/setting.md
+      - Scenario: 
+        - user-guide/simdrive/scenario/index.md
+        - Basic Usage: user-guide/simdrive/scenario/usage.md
+
       - Tooltips:
         - user-guide/simdrive/tooltips/index.md
     
