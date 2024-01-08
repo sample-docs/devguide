@@ -186,8 +186,8 @@ nav:
       - Sensors: 
         - user-guide/simdrive/sensors/index.md
         - Basic Usage: user-guide/simdrive/sensors/usage.md
-        - Capture Usage: user-guide/simdrive/sensors/capture.md
         - Setting Parameters: user-guide/simdrive/sensors/setting.md
+        #- Capture Usage: user-guide/simdrive/sensors/capture.md
       - Scenario: 
         - user-guide/simdrive/scenario/index.md
         - Basic Usage: user-guide/simdrive/scenario/usage.md
@@ -219,7 +219,9 @@ nav:
   - API Guide:
     - api-guide/index.md
 
-
- 
+  - Blog:
+    - blog/index.md
+    - 2023:
+      - blog/posts/blog-support-just-landed.md
 
 

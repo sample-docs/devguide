@@ -69,3 +69,61 @@ Ego 차량에 센서를 장착 및 설정하려면 아래와 같이 상단 툴�
 ![uidefault](../../img/simdrive-sensorload3.png)
 
 센서 설정 정보는 `json` 파일 형태로 불어올 때와 동일한 경로에 저장됩니다.
+
+## 캡처 사용법
+센서의  캡처 기능을 사용하면 센서에서 검출한 데이터를 사용자가 원하는 시점 및 장면 별로 저장할 수 있습니다.
+
+캡처 방법은 **Sensor Edit Mode** 에서 센서 장착 후, 원하는 시점에 캡처 키인 `Space` 키를 누르기만 하면 됩니다.
+![uidefault](../../img/simdrive-sensorcapture.png)
+
+???+ tip
+    캡처 기능은 **Sensor Edit Mode** 창의 활성화 및 각 센서별 네트워크 연결과는 상관 없이 동작합니다.
+
+캡처한 데이터는 **Sensor Settings** 에서 설정한 각 센서별 GT 형식에 따라 아래의 경로에 저장됩니다.
+
+- 데이터 저장 경로(Windows 기준):
+
+    `{설치위치}\MoraiLauncher_Win\MoraiLauncher_Win_Data\SaveFile\SensorData\{센서명}`
+
+
+### Capture Mode
+**Capture Mode** 는 센서의 데이터 검출 시, 각 센서에서 지원하는 모든  Ground Truth(GT) 타입의 데이터(예: 카메라의 경우, Intensity, Semantic, Instance, Depth)를 동시에 캡처하는 기능입니다.
+
+???+ note
+    Capture Mode는 센서 설정 파라미터로 **GT** 및 **Intensity Type** 을 지원하는 카메라 및 라이다 센서에서만 사용할 수 있습니다.
+
+**Capture Mode** 사용 방법은 아래와 같습니다.
+
+1. **Sensor Properties > Active List** 의 센서 목록에서 
+<img src="../../../img/simdrive-sensorcapturemode.png" alt="sensor" style="max-width: 50px; vertical-align:buttom; display:inline-block;" sapn="font-weight:bold" title="eable sensor capture mode"> 를 클릭하여 **Capture Mode** 를 활성화합니다. 
+
+    ???+ tip
+        **Capture Mode** 가 활성화되면 <img src="../../../img/simdrive-sensorcapturemode.png" alt="sensor" style="max-width: 50px; vertical-align:buttom; display:inline-block;" sapn="font-weight:bold" title="eable sensor capture mode"> 버튼이 파란색으로 변합니다.
+
+    ![uidefault](../../img/simdrive-sensorcapturemode2.png)
+
+1. [캡처 방법](#_2)과 같이 원하는 시점에 `Space` 키를 누릅니다.
+2. 시뮬레이터의 센서 데이터 경로에 해당 센서에서 지원하는 모든 GT 타입의 데이터가 한번에 생성된 것을 확인합니다. 
+
+    (예: 카메라 센서의 GT 타입에 해당하는 Intensity, Semantic, Instance(image), Instance(text), Depth 데이터 모두 생성됨)
+   ![uidefault](../../img/simdrive-sensorcapturemode3.png)
+
+???+ warning 
+    **Capture Mode** 가 활성화된 상태에서는 센서 설정에 대한 아래와 같은 제약 사항이 있습니다.
+    
+    - **Sensor Settings** 에서 GT 타입을 변경할 수 없습니다.
+    - **Sensor Settings** > **Network Setting** 에서 네트워크 연결(**Connect**)를 할 수 없습니다. 반대로 **Sensor Settings** > **Network Setting** 에서 네트워크가 연결된 상태에서 **Capture Mode** 를 활성화하면 해당 센서의 네트워크 연결이 자동으로 해제됩니다.
+
+## 센서 리스트
+센서 리스트에서는 현재 차량에 장착한 모든 센서의 목록을 확인하고, 센서 데이터 미리보기(**View** 및 **Info**)와 **Capture Mode** 를 빠르게 실행할 수 있습니다. 
+
+상단 툴바에서 **View > Sensor List** (단축키 **F5**)를 클릭하면 아래와 같은 센서 리스트 창을 확인할 수 있습니다.
+![uidefault](../../img/simdrive-sensorlist.png)
+
+-  카메랑 및 라이다 센서의 경우 센서 설정 창(**Sensor Edit Mode**)을 열지 않아도 **Capuure Mode** 를 바로 활성화할 수 있습니다. 활성화 이후 데이터 캡처 및 확인 방법은 위의 [**Capuure Mode** 사용법](#capture-mode)과 동일합니다.
+- 각 센서의 네트워크를 연결한 상태에서는 샌서 목록의 🎥 또는 ℹ️ (**미리보기**) 버튼이 활성화딥니다. 각 버튼을 클릭하여 센서 별 실시간 검출 데이터를 확인할 수  있습니다.
+- 각 센서 설정 값을 수정하려면 하단의 **Edit** 을 클릭하여 **Sensor Edit Mode** 를 활성화할 수 있습니다.
+    
+    ???+ tip
+        **Sensor Edit Mode** 가 활성화된 상태에서 **Sensor List** 의 **Edit** 버튼을 클릭하면 아무 변화가 없습니다.
+ 
