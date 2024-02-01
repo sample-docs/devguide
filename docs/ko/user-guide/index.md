@@ -1,4 +1,4 @@
-# MORAI SIM 사용자 가이드 for Latest
+# MORAI SIM 사용자 가이드 for Stable 버전
 
 MORAI SIM 정규 배포 버전에 대한 공식 사용자 가이드입니다. <br>
 MORAI SIM에서 제공하는 사용자 인터페이스 및 기능 사용법을 도메인 제품 별(Drive, Air, Robotics, Maritime)로 안내합니다.
