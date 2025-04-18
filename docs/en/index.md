@@ -3,5 +3,6 @@ template: home.html
 title: MORAI Docs
 ---
 
-Welcome to Dev Guide EN
+Welcome to MORAI Docs for SIM 1.0 - EN
+
 

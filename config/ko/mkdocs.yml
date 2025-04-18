@@ -90,11 +90,11 @@ extra:
 
   alternate:
     - name: Korean
-      link: /
+      link: /devguide/
       lang: ko
 
     - name: English
-      link: /en/ 
+      link: /devguide/en/ 
       lang: en
   version:
     default:
