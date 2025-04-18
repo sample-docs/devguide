@@ -1,25 +1,24 @@
 # Project information
-site_name: 'SIM 1.0 EN'
+site_name: Developers
 docs_dir: '../../docs/en'
 site_dir: '../../site/en'
-site_url: https://morai-docs.github.io/sim1.0/en/stable/
-site_description: Release Documentation for MORAI SIM 1.0 EN
-site_author: MORAI Engineering Service Team
+site_url: https://sample-docs.github.io/devguide/en/
+site_description: Sample Developers Center
+site_author: Eunjung Kim
 
 # Repository
-repo_name: morai-docs/sim1.0
-repo_url: https://github.com/morai-docs/sim1.0
-edit_uri: blob/main/docs/en
-remote_branch: master
+repo_name: devguide
+repo_url: https://github.com/sample-docs/devguide/
+remote_branch: gh-pages
 
-copyright: Copyright &copy; 2023 <a href="https://www.morai.ai">MORAI Inc.</a> Maintained by the <a href="https://github.com/morai-docs">MORAI-Docs Team.</a>
+copyright: Copyright &copy; 2025 <a href="https://github.com/ejkim-author">ejkim-author.</a>
 
 
 # Configuration
 theme:
   name: material
   custom_dir: '../../material/.overrides'
-  logo: assets/logo.png
+  logo: assets/favicon1.png
   features:
     - announce.dismiss
     - content.action.edit
@@ -60,7 +59,7 @@ theme:
   font:
     text: Roboto
     code: Roboto Mono
-  favicon: 'assets/favicon2.png'
+  favicon: 'assets/favicon1.png'
   icon:
     logo: logo
   language: en
@@ -80,15 +79,15 @@ plugins:
 extra:
   social:
     - icon: fontawesome/brands/github
-      link: https://github.com/morai-docs
+      link: https://github.com/sample-docs/devguide
 
   alternate:
     - name: Korean
-      link: /sim1.0/stable/                                                                                           
+      link: /                                                                                   
       lang: ko
 
     - name: English
-      link: /sim1.0/en/stable
+      link: /en/
       lang: en
   version:
     default:

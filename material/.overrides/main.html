@@ -16,12 +16,19 @@
 {% block announce %}
   {{ super() }}
   <script src="{{ 'assets/javascripts/custom.js' | url }}"></script>
-  For Technical issues, Go to <strong>Technical Support</strong> channel in
-  <a rel="me" href="https://discord.gg/qznWWuH5Vm">
+  For Technical issues, Go to <strong>@squidfunk</strong> on
+  <a rel="me" href="https://fosstodon.org/@squidfunk">
     <span class="twemoji mastodon">
-      {% include ".icons/fontawesome/brands/discord.svg" %}
+      {% include ".icons/fontawesome/brands/mastodon.svg" %}
     </span>
-    <strong>MORAI Discord</strong>
+    <strong>Fosstodon</strong>
+  </a>
+  and
+  <a href="https://x.com/squidfunk">
+    <span class="twemoji twitter">
+      {% include ".icons/fontawesome/brands/twitter.svg" %}
+    </span>
+    <strong>Twitter</strong>
   </a>
 {% endblock %}
 
